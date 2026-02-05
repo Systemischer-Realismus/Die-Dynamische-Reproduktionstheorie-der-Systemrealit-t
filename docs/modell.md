@@ -1214,3 +1214,46 @@ Diese Unterscheidung ist der Schlüssel zur Navigation.
                       │
                       ▼
                  (höheres Niveau)
+Übergänge aktiv gestalten
+Ein System gestaltet Übergänge, indem es die Energie, die Rückkopplungen und die kulturellen Muster jeder Phase bewusst nutzt. Übergänge sind die Momente, in denen das System am formbarsten ist – nicht die Phasen selbst, sondern die Schwellen zwischen ihnen. Dort entscheidet sich, ob das System wächst, stagniert oder kollabiert.
+
+Übergang von Stabilität → Instabilität
+Dieser Übergang wird gestaltbar, wenn das System Irritationen nicht abwehrt, sondern als Signal liest.
+• 	Frühwarnsignale ernst nehmen
+• 	Widersprüche sichtbar machen
+• 	Rückkopplungen öffnen
+• 	blinde Flecken benennen
+Das System beginnt, sich selbst zu beobachten, statt sich zu verteidigen.
+
+Übergang von Instabilität → Emergenz
+Dieser Übergang wird gestaltbar, wenn das System Instabilität nicht als Krise, sondern als Suchraum begreift.
+• 	Vielfalt zulassen
+• 	Experimente ermöglichen
+• 	starre Strukturen lockern
+• 	Resonanzräume öffnen
+Das System schafft Bedingungen, unter denen Neues entstehen kann.
+
+Übergang von Emergenz → neue Ordnung
+Dieser Übergang wird gestaltbar, wenn das System das Neue schützt, bevor es bewertet wird.
+• 	fragile Muster nicht überfordern
+• 	Resonanz verstärken
+• 	Energieflüsse sichern
+• 	institutionelle Öffnungen schaffen
+Das System verhindert, dass das Neue vom Alten verschluckt wird.
+
+Übergang von neuer Ordnung → nächste Stabilität
+Dieser Übergang wird gestaltbar, wenn das System das Neue verankert, ohne es zu versteinern.
+• 	neue Routinen etablieren
+• 	kulturelle Legitimität aufbauen
+• 	institutionelle Anpassungen vornehmen
+• 	Rückkopplungen flexibel halten
+Das System stabilisiert das Neue, ohne seine Lernfähigkeit zu verlieren.
+
+Die tiefe Logik der Übergänge
+Übergänge sind energetische Schwellen.
+Sie verlangen jeweils eine andere Form von Intelligenz:
+• 	Wahrnehmungsintelligenz (Stabilität → Instabilität)
+• 	Öffnungsintelligenz (Instabilität → Emergenz)
+• 	Schutzintelligenz (Emergenz → neue Ordnung)
+• 	Integrationsintelligenz (neue Ordnung → Stabilität)
+Ein System, das diese vier Intelligenzen kultiviert, wird zukunftsfähig.
