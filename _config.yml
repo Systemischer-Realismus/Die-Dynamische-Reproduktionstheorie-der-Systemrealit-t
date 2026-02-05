@@ -1,8 +1,8 @@
 title: "Systemischer Realismus"
 theme: jekyll-theme-cayman
+
 sass:
   style: compressed
 
 include:
   - assets/css/style.css
-# Optional: du kannst hier weitere Einstellungen ergänzen (permalink, plugins, description).
