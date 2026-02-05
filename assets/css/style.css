@@ -45,3 +45,9 @@ h3 {
   margin-top: 1.6em;
   margin-bottom: 0.6em;
 }
+p {
+  font-size: 1.05rem;
+  line-height: 1.75;
+  margin-bottom: 1.4em;
+  max-width: 70ch;
+}
