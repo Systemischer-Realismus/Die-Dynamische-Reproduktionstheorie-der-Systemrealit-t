@@ -18,7 +18,9 @@ Diese Startseite führt in die Struktur der Theorie ein. Die Kapitel sind entlan
 ## Normative und programmatische Ableitung
 
 - Manifest — normative Leitgedanken, die aus der Theorie folgen: Verantwortung, Gestaltung, Resonanz, Stabilisierung und Erneuerung
+- Vorwort – persönliche und konzeptionelle Rahmung …
+- Einleitung – thematische Hinführung, Problemstellung und Motivation der Theorie
 
-## Ergänzende Materialien
+- ## Ergänzende Materialien
 
-- Platzhalter — technische oder strukturelle Elemente für spätere Erweiterungen
+- Platzhalter – technische oder strukturelle Elemente für spätere Erweiterungen
