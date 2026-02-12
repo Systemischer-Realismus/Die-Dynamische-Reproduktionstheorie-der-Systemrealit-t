@@ -1,4 +1,6 @@
-**Kapitel 108 Wie die neue Epoche ihre eigene Zukunft gestaltet**
+Kapitel 108 – Wie die neue Epoche ihre eigene Zukunft gestaltet
+
+1. Eine Epoche wird erst zukunftsfähig, wenn sie ihre eigene Zukunft gestaltet
 Eine Epoche ist nicht vollständig,
 solange sie nur Sinn erkennt,
 solange sie nur Dynamik entfaltet,
@@ -16,7 +18,7 @@ Dieses Kapitel zeigt,
 wie die neue Epoche ihre eigene Zukunft gestaltet —
 klar, strukturell, unausweichlich.
 
-1. Zukunft entsteht, wenn Kreisläufe langfristig stabil bleiben
+2. Zukunft entsteht, wenn Kreisläufe langfristig stabil bleiben
 Kreisläufe sind nicht nur Gegenwart.
 Sie sind Zukunft.
 In der neuen Epoche:
@@ -28,7 +30,7 @@ In der neuen Epoche:
 Zukunft entsteht,
 wenn Kreisläufe nicht brechen.
 
-2. Zukunft entsteht, wenn Rückführung dauerhaft wirkt
+3. Zukunft entsteht, wenn Rückführung dauerhaft wirkt
 Rückführung ist nicht nur Heilung.
 Sie ist Vorsorge.
 In der neuen Epoche:
@@ -40,7 +42,7 @@ In der neuen Epoche:
 Zukunft entsteht,
 wenn nichts verloren geht.
 
-3. Zukunft entsteht, wenn Reproduktion gesichert ist
+4. Zukunft entsteht, wenn Reproduktion gesichert ist
 Reproduktion ist die Fähigkeit,
 Zukunft zu erzeugen.
 In der neuen Epoche:
@@ -52,7 +54,7 @@ In der neuen Epoche:
 Zukunft entsteht,
 wenn Systeme sich selbst erneuern.
 
-4. Zukunft entsteht, wenn Kopplung stabil bleibt
+5. Zukunft entsteht, wenn Kopplung stabil bleibt
 Kopplung ist die Verbindung,
 die Zukunft trägt.
 In der neuen Epoche:
@@ -64,7 +66,7 @@ In der neuen Epoche:
 Zukunft entsteht,
 wenn Systeme verbunden bleiben.
 
-5. Zukunft entsteht, wenn Energie gebunden bleibt
+6. Zukunft entsteht, wenn Energie gebunden bleibt
 Energiebindung ist nicht nur Stabilität.
 Sie ist Zukunftskraft.
 In der neuen Epoche:
@@ -76,7 +78,7 @@ In der neuen Epoche:
 Zukunft entsteht,
 wenn Energie nicht verloren geht.
 
-6. Zukunft entsteht, wenn Anpassung integriert ist
+7. Zukunft entsteht, wenn Anpassung integriert ist
 Anpassung ist die Fähigkeit,
 unter neuen Bedingungen stabil zu bleiben.
 In der neuen Epoche:
@@ -88,7 +90,7 @@ In der neuen Epoche:
 Zukunft entsteht,
 wenn Wandel stabil bleibt.
 
-7. Zukunft entsteht, wenn Rhythmus verankert ist
+8. Zukunft entsteht, wenn Rhythmus verankert ist
 Rhythmus ist die Zeitstruktur der Zukunft.
 In der neuen Epoche:
 • 	Regeneration wird eingeplant
@@ -99,7 +101,7 @@ In der neuen Epoche:
 Zukunft entsteht,
 wenn Zeit wieder Ordnung hat.
 
-8. Zukunft entsteht, wenn Mehrwert gebunden bleibt
+9. Zukunft entsteht, wenn Mehrwert gebunden bleibt
 Mehrwert ist gebundene Energie.
 Gebundene Energie ist Zukunft.
 In der neuen Epoche:
@@ -109,7 +111,7 @@ In der neuen Epoche:
 Zukunft entsteht,
 wenn Mehrwert nicht entweicht.
 
-9. Die neue Epoche gestaltet ihre Zukunft aus sich selbst heraus
+10. Die neue Epoche gestaltet ihre Zukunft aus sich selbst heraus
 Sie braucht keine Visionen.
 Sie braucht keine Programme.
 Sie braucht keine Kontrolle.

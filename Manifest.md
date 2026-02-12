@@ -1,4 +1,5 @@
 **Manifest des Systemischen Realismus**
+
 Präambel
 Wir leben auf einem Planeten, der kein Besitz ist, sondern ein System.
 Ein System aus Energieflüssen, Kreisläufen und selbstorganisierenden Prozessen.

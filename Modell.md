@@ -1,4 +1,3 @@
-
 - Vertrauensverlust in Institutionen
 - Polarisierung statt Konsensbildung
 - Blockaden statt Problemlösung
