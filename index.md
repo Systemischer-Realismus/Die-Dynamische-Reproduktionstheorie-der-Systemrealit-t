@@ -1,3 +1,7 @@
+---
+layout: default
+title: Start
+---
 ## Die dynamische Reproduktionstheorie der Systemrealitaet
 
 Diese Startseite führt in die Struktur der Theorie ein. Die Kapitel sind entlang des reproduktiven Zyklus geordnet: Orientierung, historische Einbettung, Modellbildung, normative Ableitung und ergänzende Materialien. So entsteht ein klarer Weg durch die Logik der systemischen Reproduktion.
