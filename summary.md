@@ -116,12 +116,4 @@
 * [Kapitel 110 - Wie die neue Epoche sich selbst schützt](Kapitel_110.md)
 * [Kapitel 111 - Wie die neue Epoche ihre eigene Integrität bewahrt](Kapitel_111.md)
 * [Kapitel 112 - Wie die neue Epoche sich im Ganzen verortet](Kapitel_112.md)
-<<<<<<< HEAD
 * [Kapitel 113 - Was die neue Epoche ist](Kapitel_113.md)
-* Fix YAML structure for GitHub Pages
-=======
-* [Kapitel 113 - Was die neue Epoche ist](Kapitel_113.md)
->>>>>>> 40e99179d3e00a5b21183495cc580795e7df42e1
-Remove docs folder
-Commit to main
-Push origin
