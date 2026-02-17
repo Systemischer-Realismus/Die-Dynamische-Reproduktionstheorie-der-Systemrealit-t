@@ -1,9 +1,9 @@
 ---
 layout: default
-title: "Kapitel 5 – Struktur, Form und Grenze"
+title: "Kapitel 05 – Struktur, Form und Grenze"
 ---
 
-## Kapitel 5 – Struktur, Form und Grenze
+## Kapitel 05 – Struktur, Form und Grenze
 
 ## 1. Form als innere Ordnung
 

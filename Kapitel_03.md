@@ -3,7 +3,7 @@ layout: default
 title: "Kapitel 03 – Die Logik der Kreisläufe"
 ---
 
-## Kapitel 3 – Die Logik der Kreisläufe
+## Kapitel 03 – Die Logik der Kreisläufe
 
 ## 1. Kreisläufe als Prinzip der Rückführung
 

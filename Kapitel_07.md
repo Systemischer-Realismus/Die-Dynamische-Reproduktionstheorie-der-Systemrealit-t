@@ -1,9 +1,9 @@
 ---
 layout: default
-title: "Kapitel 7 – Elemente, Beziehungen und Wirkung"
+title: "Kapitel 07 – Elemente, Beziehungen und Wirkung"
 ---
 
-## Kapitel 7 – Elemente, Beziehungen und Wirkung
+## Kapitel 07 – Elemente, Beziehungen und Wirkung
 
 ## 1. Elemente im Zusammenhang
 

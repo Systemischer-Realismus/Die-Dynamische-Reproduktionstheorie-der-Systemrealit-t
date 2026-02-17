@@ -1,0 +1,44 @@
+<nav class="sidebar">
+
+  <h3>Orientierung und Einstieg</h3>
+  <ul>
+    <li><a href="/vorwort/">Vorwort</a></li>
+    <li><a href="/einleitung/">Einleitung</a></li>
+    <li><a href="/grundprinzipien/">Grundprinzipien</a></li>
+  </ul>
+
+  <h3>Historische und systemische Einbettung</h3>
+  <ul>
+    <li><a href="/historie/">Historie</a></li>
+  </ul>
+
+  <h3>Zentrales Modell</h3>
+  <ul>
+    <li><a href="/modell/">Modell</a></li>
+  </ul>
+
+  <h3>Normative und programmatische Ableitung</h3>
+  <ul>
+    <li><a href="/manifest/">Manifest</a></li>
+  </ul>
+
+  <h3>Ergänzende Materialien</h3>
+  <ul>
+    <li><a href="/platzhalter/">Platzhalter</a></li>
+    <li><a href="/impressum/">Impressum</a></li>
+    <li><a href="/schlussseite/">Schlussseite</a></li>
+    <li><a href="/summary/">Summary</a></li>
+    <li><a href="/security/">Security</a></li>
+  </ul>
+
+  <h3>Alle Kapitel</h3>
+  <ul>
+    {% assign kapitel = site.pages | sort: "path" %}
+    {% for page in kapitel %}
+      {% if page.path contains "Kapitel_" %}
+        <li><a href="{{ page.url }}">{{ page.title }}</a></li>
+      {% endif %}
+    {% endfor %}
+  </ul>
+
+</nav>

@@ -1,9 +1,9 @@
 ---
 layout: default
-title: "Kapitel 9 – Wachstum, Grenze und Überlastung"
+title: "Kapitel 09 – Wachstum, Grenze und Überlastung"
 ---
 
-## Kapitel 9 – Wachstum, Grenze und Überlastung
+## Kapitel 09 – Wachstum, Grenze und Überlastung
 
 ## 1. Wachstum als Phase
 

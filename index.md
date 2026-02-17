@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "index"
+title: "Startseite"
 ---
 
 ## Die dynamische Reproduktionstheorie der Systemrealitaet

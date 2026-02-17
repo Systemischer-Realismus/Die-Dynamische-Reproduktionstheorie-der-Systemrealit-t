@@ -3,7 +3,7 @@ layout: default
 title: "Kapitel 02 – Das Prinzip der Abhängigkeit"
 ---
 
-## Kapitel 2 – Das Prinzip der Abhängigkeit
+## Kapitel 02 – Das Prinzip der Abhängigkeit
 
 ## 1. Leben entsteht im Zusammenhang
 
