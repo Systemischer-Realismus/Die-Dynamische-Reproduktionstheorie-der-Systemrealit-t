@@ -13,7 +13,6 @@ title: "Übersicht"
 * [Grundprinzipien](grundprinzipien.md)
 * [Modell](modell.md)
 * [Impressum](impressum.md)
-
 * [Kapitel 1 – Die Ordnung des Lebens](Kapitel_01.md)
 * [Kapitel 2 – Das Prinzip der Abhängigkeit](Kapitel_02.md)
 * [Kapitel 3 – Die Logik der Kreisläufe](Kapitel_03.md)
@@ -127,5 +126,4 @@ title: "Übersicht"
 * [Kapitel 111 – Wie die neue Epoche ihre eigene Integrität bewahrt](Kapitel_111.md)
 * [Kapitel 112 – Wie die neue Epoche sich im Ganzen verortet](Kapitel_112.md)
 * [Kapitel 113 – Was die neue Epoche ist](Kapitel_113.md)
-
 * [Schlussseite](Schlussseite.md)
