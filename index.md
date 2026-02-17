@@ -17,28 +17,28 @@ durch die Logik der systemischen Reproduktion.
 
 ## Orientierung und Einstieg
 
-- [Vorwort](vorwort.md) – persönliche und konzeptionelle Rahmung, die den Ursprung der Fragestellung sichtbar macht  
-- [Einleitung](einleitung.md) – thematische Hinführung, Problemstellung und Motivation der Theorie
+- [Vorwort](vorwort/) – persönliche und konzeptionelle Rahmung, die den Ursprung der Fragestellung sichtbar macht  
+- [Einleitung](einleitung/) – thematische Hinführung, Problemstellung und Motivation der Theorie
 
 ---
 
 ## Historische und systemische Einbettung
 
-- [Historie](historie.md) – Entwicklungslinien, gesellschaftliche Kontexte und theoretische Vorläufer,  
+- [Historie](historie/) – Entwicklungslinien, gesellschaftliche Kontexte und theoretische Vorläufer,  
   aus denen die Theorie hervorgegangen ist
 
 ---
 
 ## Zentrales Modell
 
-- [Modell](modell.md) – formale Darstellung der dynamischen Reproduktion der Systemrealitaet:  
+- [Modell](modell/) – formale Darstellung der dynamischen Reproduktion der Systemrealitaet:  
   Energieflüsse, Kopplungen, Stabilisierung, Resonanz und zyklische Erneuerung
 
 ---
 
 ## Normative und programmatische Ableitung
 
-- [Manifest](manifest.md) – normative Leitgedanken, die aus der Theorie folgen:  
+- [Manifest](manifest/) – normative Leitgedanken, die aus der Theorie folgen:  
   Verantwortung, Gestaltung, Resonanz, Stabilisierung und Erneuerung
 
 ---
