@@ -32,7 +32,7 @@ durch die Logik der systemischen Reproduktion.
 ## Zentrales Modell
 
 - [Modell](modell/) – formale Darstellung der dynamischen Reproduktion der Systemrealitaet:  
-  Energieflüsse, Kopplungen, Stabilisierung, Resonanz und zyklische Erneuerung
+  Energieflüsse, Kopplungen, Stabilisierung, Resonanz und zyklische Erneuerung    
 
 ---
 
