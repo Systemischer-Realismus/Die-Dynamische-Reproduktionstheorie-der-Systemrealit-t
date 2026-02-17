@@ -3,7 +3,7 @@ layout: default
 title: "Grundprinzipien des Systemischen Realismus"
 ---
 
-# Grundprinzipien des Systemischen Realismus
+## Grundprinzipien des Systemischen Realismus
 
 ## 1. Reproduktion ist Pflicht
 

@@ -3,7 +3,7 @@ layout: default
 title: "Historische Einbettung"
 ---
 
-# Historische und systemische Einbettung
+## Historische und systemische Einbettung
 
 Die Dynamische Reproduktionstheorie der Systemrealitaet  
 steht in einer langen historischen Linie von Denkbewegungen,  

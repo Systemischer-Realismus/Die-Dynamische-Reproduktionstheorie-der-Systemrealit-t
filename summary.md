@@ -11,6 +11,7 @@ title: "Übersicht"
 * [Manifest](manifest.md)
 * [Einleitung](einleitung.md)
 * [Grundprinzipien](grundprinzipien.md)
+* [Modell](modell.md)
 * [Impressum](impressum.md)
 
 * [Kapitel 1 – Die Ordnung des Lebens](Kapitel_01.md)

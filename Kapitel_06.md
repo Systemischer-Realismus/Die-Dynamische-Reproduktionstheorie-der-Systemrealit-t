@@ -1,9 +1,9 @@
 ---
 layout: default
-title: "Kapitel 06 – Ordnung, Störung und Anpassung"
+title: "Kapitel 6 – Ordnung, Störung und Anpassung"
 ---
 
-# Kapitel 6 – Ordnung, Störung und Anpassung
+## Kapitel 6 – Ordnung, Störung und Anpassung
 
 ## 1. Ordnung als Prozess
 

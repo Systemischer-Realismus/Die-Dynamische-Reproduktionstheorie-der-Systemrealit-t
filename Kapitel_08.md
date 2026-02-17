@@ -1,9 +1,9 @@
 ---
 layout: default
-title: "Kapitel 08 – Stabilität, Fluss und Gleichgewicht"
+title: "Kapitel 8 – Stabilität, Fluss und Gleichgewicht"
 ---
 
-# Kapitel 8 – Stabilität, Fluss und Gleichgewicht
+## Kapitel 8 – Stabilität, Fluss und Gleichgewicht
 
 ## 1. Stabilität als dynamischer Prozess
 

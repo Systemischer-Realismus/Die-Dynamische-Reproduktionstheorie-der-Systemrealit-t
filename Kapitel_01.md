@@ -1,9 +1,9 @@
 ---
 layout: default
-title: "Kapitel 01 – Die Ordnung des Lebens"
+title: "Kapitel 1 – Die Ordnung des Lebens"
 ---
 
-# Kapitel 1 – Die Ordnung des Lebens
+## Kapitel 1 - Die Ordnung des Lebens
 
 ## Eingebettet ins System
 

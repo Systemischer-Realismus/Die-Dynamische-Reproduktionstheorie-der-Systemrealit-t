@@ -3,7 +3,7 @@ layout: default
 title: "Einleitung"
 ---
 
-# Einleitung
+## Einleitung
 
 Die Dynamische Reproduktionstheorie der Systemrealität  
 versteht die Welt als ein Geschehen,  

@@ -42,12 +42,13 @@ durch die Logik der systemischen Reproduktion.
   Verantwortung, Gestaltung, Resonanz, Stabilisierung und Erneuerung
 
 ---
+
 ## Grundprinzipien des Systemischen Realismus
 
-- [Grundprinzipien](grundprinzipien.md) – Reproduktion ist Pflicht, Energiefluss bestimmt Stabilität,
-  Kreisläufe ersetzen lineare Nutzungz, Der Mensch ist Teil des Systems, Technologie dient dem System,
-  Märkte bleiben frei, aber systemgebunden, Zukunft entsteht aus Stabilität nicht aus Wachstum,
-  Mehrwert verpflichtet zur Rückführung
+- [Grundprinzipien](grundprinzipien.md) – Reproduktion ist Pflicht, Energiefluss bestimmt
+  Stabilität, Kreisläufe ersetzen lineare Nutzung, Der Mensch ist Teil des Systems,
+  Technologie dient dem System, Märkte bleiben frei, aber systemgebunden, Zukunft entsteht
+  aus Stabilität nicht aus Wachstum, Mehrwert verpflichtet zur Rückführung
   
 ---
 

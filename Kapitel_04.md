@@ -3,7 +3,7 @@ layout: default
 title: "Kapitel 04 – Energie, Mehrwert und Verlust"
 ---
 
-# Kapitel 4 – Energie, Mehrwert und Verlust
+## Kapitel 4 – Energie, Mehrwert und Verlust
 
 ## 1. Energie als Grundlage von Systemen
 
