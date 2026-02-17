@@ -17,30 +17,38 @@ durch die Logik der systemischen Reproduktion.
 
 ## Orientierung und Einstieg
 
-- [Vorwort](Vorwort.md) – persönliche und konzeptionelle Rahmung, die den Ursprung der Fragestellung sichtbar macht  
-- [Einleitung](Einleitung.md) – thematische Hinführung, Problemstellung und Motivation der Theorie
+- [Vorwort](vorwort.md) – persönliche und konzeptionelle Rahmung, die den Ursprung der Fragestellung sichtbar macht  
+- [Einleitung](einleitung.md) – thematische Hinführung, Problemstellung und Motivation der Theorie
 
 ---
 
 ## Historische und systemische Einbettung
 
-- [Historie](Historie.md) – Entwicklungslinien, gesellschaftliche Kontexte und theoretische Vorläufer,  
+- [Historie](historie.md) – Entwicklungslinien, gesellschaftliche Kontexte und theoretische Vorläufer,  
   aus denen die Theorie hervorgegangen ist
 
 ---
 
 ## Zentrales Modell
 
-- [Modell](Modell.md) – formale Darstellung der dynamischen Reproduktion der Systemrealitaet:  
+- [Modell](modell.md) – formale Darstellung der dynamischen Reproduktion der Systemrealitaet:  
   Energieflüsse, Kopplungen, Stabilisierung, Resonanz und zyklische Erneuerung
 
 ---
 
 ## Normative und programmatische Ableitung
 
-- [Manifest](Manifest.md) – normative Leitgedanken, die aus der Theorie folgen:  
+- [Manifest](manifest.md) – normative Leitgedanken, die aus der Theorie folgen:  
   Verantwortung, Gestaltung, Resonanz, Stabilisierung und Erneuerung
 
+---
+## Grundprinzipien des Systemischen Realismus
+
+- [Grundprinzipien](grundprinzipien.md) – Reproduktion ist Pflicht, Energiefluss bestimmt Stabilität,
+  Kreisläufe ersetzen lineare Nutzungz, Der Mensch ist Teil des Systems, Technologie dient dem System,
+  Märkte bleiben frei, aber systemgebunden, Zukunft entsteht aus Stabilität nicht aus Wachstum,
+  Mehrwert verpflichtet zur Rückführung
+  
 ---
 
 ## Ergänzende Materialien
