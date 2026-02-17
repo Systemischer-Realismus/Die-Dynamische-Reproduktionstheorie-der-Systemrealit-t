@@ -53,4 +53,5 @@ durch die Logik der systemischen Reproduktion.
 
 ## Ergänzende Materialien
 
+- [Platzhalter](platzhalter.md)
 - Platzhalter – technische oder strukturelle Elemente für spätere Erweiterungen
