@@ -1,107 +1,96 @@
 <!DOCTYPE html>
 <html lang="de">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>KREIS – Systemischer Realismus</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>KREIS – Systemischer Realismus</title>
 
-    <link rel="stylesheet" href="assets/css/style.css">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      line-height: 1.6;
+    }
+
+    /* Headbar */
+    .headbar {
+      background-color: #f2f2f2;
+      padding: 10px 0;
+      border-bottom: 1px solid #ddd;
+    }
+
+    .headbar ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+    }
+
+    .headbar a {
+      text-decoration: none;
+      color: #333;
+      font-weight: bold;
+      font-size: 16px;
+    }
+
+    .headbar a:hover {
+      color: #000;
+    }
+
+    /* Kosmos-Symbol */
+    .kosmos-icon {
+      width: 20px;
+      height: 20px;
+      position: relative;
+      top: -6px;
+      margin-left: 6px;
+      opacity: 0.85;
+    }
+
+    /* Hauptbereich */
+    .content {
+      max-width: 800px;
+      margin: 40px auto;
+      padding: 0 20px;
+      text-align: center;
+    }
+
+    h1 {
+      font-size: 32px;
+      margin-bottom: 20px;
+    }
+
+    p {
+      font-size: 18px;
+      color: #444;
+    }
+  </style>
 </head>
+
 <body>
-  <nav class="topnav">
-  <div class="nav-group">
-    <span class="nav-title">Orientierung</span>
-    <div class="nav-items">
-      <a href="/Kreis/vorwort.html">Vorwort</a>
-      <a href="/Kreis/einleitung.html">Einleitung</a>
-    </div>
+
+  <!-- HEADBAR -->
+  <nav class="headbar">
+    <ul>
+      <li><a href="/index.html">KREIS <img src="/Kreis/kosmos.ico" class="kosmos-icon" alt="Kosmos"></a></li>
+      <li><a href="/vorwort.html">Theorie</a></li>
+      <li><a href="/grundprinzipien.html">Ordnung</a></li>
+      <li><a href="/Kapitel_01.html">Aufbruch</a></li>
+      <li><a href="/impressum.html">Impressum</a></li>
+    </ul>
+  </nav>
+
+  <!-- INHALT -->
+  <div class="content">
+    <h1>Systemischer Realismus – KREIS</h1>
+    <p>
+      Willkommen im Ursprung des Kreises.  
+      Von hier aus beginnt die Bewegung, die Ordnung, die Theorie und der Aufbruch.
+    </p>
   </div>
-
-  <div class="nav-group">
-    <span class="nav-title">Historische Einbettung</span>
-    <div class="nav-items">
-      <a href="/Kreis/historie.html">Historie</a>
-    </div>
-  </div>
-
-  <div class="nav-group">
-    <span class="nav-title">Zentrales Modell</span>
-    <div class="nav-items">
-      <a href="/Kreis/modell.html">Modell</a>
-      <a href="/Kreis/grundprinzipien.html">Grundprinzipien</a>
-    </div>
-  </div>
-
-  <div class="nav-group">
-    <span class="nav-title">Normative Ableitung</span>
-    <div class="nav-items">
-      <a href="/Kreis/manifest.html">Manifest</a>
-    </div>
-  </div>
-
-  <div class="nav-group">
-    <span class="nav-title">Rechtliches</span>
-    <div class="nav-items">
-      <a href="/Kreis/impressum.html">Impressum</a>
-    </div>
-  </div>
-</nav>
-<nav class="topnav">
-
-  <!-- Blättern links -->
-  <div class="nav-prev">
-    <!-- Beispiel, wird pro Seite angepasst -->
-    <a href="/Kreis/kapitel_01.html">← zurück</a>
-  </div>
-
-  <!-- Gruppe 1: Theorie -->
-  <div class="nav-group">
-    <span class="nav-title">Theorie</span>
-    <div class="nav-items">
-      <!-- Kapitel 1–63 -->
-      <a href="/Kreis/kapitel_01.html">Kapitel 1 – Theorie</a>
-      <a href="/Kreis/kapitel_02.html">Kapitel 2 – Theorie</a>
-      <a href="/Kreis/kapitel_03.html">Kapitel 3 – Theorie</a>
-      <!-- … bis Kapitel 63 -->
-      <a href="/Kreis/kapitel_63.html">Kapitel 63 – Theorie</a>
-    </div>
-  </div>
-
-  <!-- Gruppe 2: Ordnung -->
-  <div class="nav-group">
-    <span class="nav-title">Ordnung</span>
-    <div class="nav-items">
-      <!-- Kapitel 64–93 -->
-      <a href="/Kreis/kapitel_64.html">Kapitel 64 – Ordnung</a>
-      <a href="/Kreis/kapitel_65.html">Kapitel 65 – Ordnung</a>
-      <!-- … bis Kapitel 93 -->
-      <a href="/Kreis/kapitel_93.html">Kapitel 93 – Ordnung</a>
-    </div>
-  </div>
-
-  <!-- Gruppe 3: Aufbruch -->
-  <div class="nav-group">
-    <span class="nav-title">Aufbruch</span>
-    <div class="nav-items">
-      <!-- Kapitel 94–113 -->
-      <a href="/Kreis/kapitel_94.html">Kapitel 94 – Aufbruch</a>
-      <a href="/Kreis/kapitel_95.html">Kapitel 95 – Aufbruch</a>
-      <!-- … bis Kapitel 113 -->
-      <a href="/Kreis/kapitel_113.html">Kapitel 113 – Aufbruch</a>
-    </div>
-  </div>
-
-  <!-- Blättern rechts -->
-  <div class="nav-next">
-    <!-- Beispiel, wird pro Seite angepasst -->
-    <a href="/Kreis/kapitel_03.html">vor →</a>
-  </div>
-
-</nav>
-<h1>Systemischer Realismus – KREIS 
-    <img src="/Kreis/kosmos.ico" alt="Kosmos" class="kosmos-icon">
-</h1>
-
 <p>Diese Startseite führt in die Struktur der Theorie ein.<br>
 Die Kapitel sind entlang des reproduktiven Zyklus geordnet:<br>
 Orientierung, historische Einbettung, Modellbildung,<br>
