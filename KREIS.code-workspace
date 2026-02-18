@@ -1,7 +1,10 @@
 {
-    "folders": [
-        {
-            "path": "."
-        }
-    ]
+	"folders": [
+		{
+			"path": "c:/KREIS"
+		}
+	],
+	"settings": {
+		"files.eol": "\n"
+	}
 }
