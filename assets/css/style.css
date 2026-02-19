@@ -14,6 +14,11 @@ body {
   margin-right: auto;
   margin-top: 90px; /* Platz für Headbar */
 }
+  .content {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
 .nav-prev, .nav-next {
   font-weight: bold;
   padding: 4px 10px;
@@ -144,9 +149,4 @@ p + p {
   margin-top: 2.5rem;
   margin-bottom: 2.5rem;
   opacity: 0.9;
-}
-.content {
-  max-width: 800px;
-  margin: 0 auto;
-  text-align: center;
 }
