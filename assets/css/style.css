@@ -169,8 +169,9 @@ body.index-surface {
   height: 100vh;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: center; /* statt space-between */
   align-items: center;
+  gap: 1.5rem; /* Abstand zwischen den Elementen */
 }
 
 /* Oben: Raumschiff */
@@ -180,7 +181,6 @@ body.index-surface {
   font-weight: 600;
   letter-spacing: 1px;
 }
-
 /* Kreis */
 .kreis-button {
   width: 150px;
@@ -206,10 +206,7 @@ body.index-surface {
 .hero-earth {
   display: flex;
   justify-content: center;
-  margin-top: -1rem;   /* Erde nach oben ziehen */
-  margin-bottom: 2rem; /* Abstand zum Grundsatz */
 }
-
 .earth {
   width: 220px;   /* oder 250px, wenn du sie größer willst */
   height: auto;
