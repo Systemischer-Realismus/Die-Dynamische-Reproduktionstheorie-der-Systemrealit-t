@@ -10,43 +10,28 @@
 <body class="index-surface">
 
   <section class="hero-kreis">
-   
-    <!-- OBEN: Raumschiff -->
-    <div class="hero-space">
-      <div class="ship-text">Raumschiff</div>
-    </div>
 
-    <!-- MITTE: Kreis (führt zu start.html oder zuletzt gelesenem Kapitel) -->
-    <div class="hero-center">
-      <a id="kreisLink" href="start.html" class="kreis-button">
-        klicke bitte hier
-      </a>
-    </div>
-    <div class="hero-kreis">
-
+    <!-- Erde -->
     <div class="earth-container">
         <img src="erde.webp" class="earth">
     </div>
 
+    <!-- Raumschiff -->
     <div class="ship-text">Raumschiff</div>
-    <a class="kreis-button">klicke bitte hier</a>
-    <div class="grundsatz still">…</div>
-    </div>
 
-    <!-- UNTEN: Erde -->
-    <div class="hero-earth">
-      <img src="erde.webp" alt="Erde" class="earth">
-    </div>
-    
-    <!-- STILLER GRUNDSATZ -->
+    <!-- Kreis -->
+    <a id="kreisLink" href="start.html" class="kreis-button">
+        klicke bitte hier
+    </a>
+
+    <!-- Grundsatz IN der Erde -->
     <div class="grundsatz still">
-      Die Erde ist kein Eigentum!<br>
-      Alle Systeme dieser Welt haben ein Recht auf Kreisläufe,<br>
-      die Lebensräume erhalten, auf erweiterte Reproduktion<br>
-      und damit auf Evolution.
+        Die Erde ist kein Eigentum!<br>
+        Alle Systeme dieser Welt haben ein Recht auf Kreisläufe,<br>
+        die Lebensräume erhalten, auf erweiterte Reproduktion<br>
+        und damit auf Evolution.
     </div>
-  </section>
-
+</section>
   <!-- OPTIONAL: Fortschritt auslesen -->
   <script>
     const last = localStorage.getItem("lastChapter");
