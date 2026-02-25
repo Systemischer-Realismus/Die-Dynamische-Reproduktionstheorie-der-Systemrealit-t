@@ -3,67 +3,48 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>KREIS – Systemischer Realismus</title>
+  <title>KREIS – Oberfläche</title>
   <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
-<body>
+<body class="index-surface">
 
-  <!-- HEADBAR -->
-  <nav class="headbar">
-    <ul>
-      <li><a href="index.html">KREIS <img src="kosmos.ico" class="kosmos-icon"></a></li>
-      <li><a href="Kapitel_00.html">Theorie</a></li>
-      <li><a href="Kapitel_64.html">Ordnung</a></li>
-      <li><a href="Kapitel_94.html">Aufbruch</a></li>
-      <li><a href="impressum.html">Impressum</a></li>
-    </ul>
-
-    <ul class="nav-move">
-      <li><a href="schlussseite.html">← zurück</a></li>
-      <li><a href="vorwort.html">vor →</a></li>
-    </ul>
-  </nav>
-
-  <!-- INHALT -->
-  <div class="content">
-
-    <h1>Systemischer Realismus – KREIS</h1>
-
-    <!-- ZENTRALES URSPRUNGSSYMBOL -->
-    <div class="kosmos-center">
-      <img src="kosmos.ico" class="kosmos-icon-large">
+  <section class="hero-kreis">
+   
+    <!-- OBEN: Raumschiff -->
+    <div class="hero-space">
+      <div class="ship-text">Raumschiff</div>
     </div>
 
-    <h2>Der Kreis ist das Prinzip des Lebens: alles kehrt zurück und wird neu.</h2>
+    <!-- MITTE: Kreis (führt zu start.html oder zuletzt gelesenem Kapitel) -->
+    <div class="hero-center">
+      <a id="kreisLink" href="start.html" class="kreis-button">
+        klicke bitte hier
+      </a>
+    </div>
 
-    <p>
-      Willkommen im Ursprung des Kreises.<br>
-      Von hier aus beginnt die Bewegung, die Ordnung, die Theorie und der Aufbruch.
-    </p>
+    <!-- STILLER GRUNDSATZ -->
+    <div class="grundsatz still">
+      Die Erde ist kein Eigentum!<br>
+      Alle Systeme dieser Welt haben ein Recht auf Kreisläufe,<br>
+      die Lebensräume erhalten, auf erweiterte Reproduktion<br>
+      und damit auf Evolution.
+    </div>
 
-    <p>
-      Diese Startseite führt in die Struktur der Theorie ein.<br>
-      Die Kapitel sind entlang des reproduktiven Zyklus geordnet.
-    </p>
+    <!-- UNTEN: Erde -->
+    <div class="hero-earth">
+      <img src="assets/img/erde.png" alt="Erde" class="earth">
+    </div>
 
-    <p>
-      So entsteht ein klarer Weg durch die Logik der systemischen Reproduktion.
-    </p>
+  </section>
 
-    <h2>Orientierung und Einstieg</h2>
-
-    <ul>
-      <li><strong>Vorwort</strong> – persönliche und konzeptionelle Rahmung</li>
-      <li><strong>Einleitung</strong> – thematische Hinführung</li>
-      <li><strong>Manifest</strong> – die grundlegende Setzung des KREIS</li>
-      <li><strong>Grundprinzipien</strong> – die elementare Ordnung des Systems</li>
-      <li><strong>Theorie</strong> – die konzeptionelle Rahmung</li>
-      <li><strong>Ordnung</strong> – die systemische Strukturierung</li>
-      <li><strong>Aufbruch</strong> – der Schritt in die Bewegung</li>
-    </ul>
-
-  </div>
+  <!-- OPTIONAL: Fortschritt auslesen -->
+  <script>
+    const last = localStorage.getItem("lastChapter");
+    if (last) {
+      document.getElementById("kreisLink").href = last;
+    }
+  </script>
 
 </body>
 </html>
