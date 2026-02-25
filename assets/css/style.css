@@ -173,6 +173,12 @@ body.index-surface {
   align-items: center;
   padding-top: 12rem;
 }
+.earth-container {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1; /* hinter Kreis und Raumschiff */
+}
 
 /* Oben: Raumschiff */
 .ship-text {
