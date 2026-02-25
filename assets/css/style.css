@@ -171,7 +171,7 @@ body.index-surface {
   flex-direction: column;
   justify-content: flex-start; /* Start statt Mitte */
   align-items: center;
-  padding-top: 3rem; /* Abstand zum oberen Rand */
+  padding-top: 8rem; /* Abstand zum oberen Rand */
   gap: 2rem; /* Abstand zwischen den Elementen */
 }
 
