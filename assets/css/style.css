@@ -169,9 +169,10 @@ body.index-surface {
   height: 100vh;
   display: flex;
   flex-direction: column;
-  justify-content: center; /* statt space-between */
+  justify-content: flex-start; /* Start statt Mitte */
   align-items: center;
-  gap: 1.5rem; /* Abstand zwischen den Elementen */
+  padding-top: 3rem; /* Abstand zum oberen Rand */
+  gap: 2rem; /* Abstand zwischen den Elementen */
 }
 
 /* Oben: Raumschiff */
