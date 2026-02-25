@@ -207,7 +207,7 @@ body.index-surface {
   margin-top: -2rem; /* Erde näher an den Kreis */
 }
 .earth {
-  width: 1100px;   /* oder 250px, wenn du sie größer willst */
+  width: 900px;   /* oder 250px, wenn du sie größer willst */
   height: auto;
   opacity: 0.95;
 }
