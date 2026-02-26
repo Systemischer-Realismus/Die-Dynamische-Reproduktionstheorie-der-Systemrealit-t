@@ -184,7 +184,7 @@ body.index-surface {
 /* Erde – proportional, immer zentriert */
 .earth-container {
   position: absolute;
-  top: 5vh;                 /* proportional statt Pixel */
+  top: 4vh;                 /* proportional statt Pixel */
   left: 50%;
   transform: translateX(-50%);
   z-index: 1;
@@ -210,7 +210,7 @@ body.index-surface {
 /* Kreis – proportionaler Abstand, Text bleibt im Kreis */
 .kreis-button {
   position: relative;
-  margin-top: 10vh;         /* 10% der Bildschirmhöhe */
+  margin-top: 8vh;         /* 10% der Bildschirmhöhe */
   width: 150px;
   height: 150px;
   border-radius: 50%;
@@ -235,7 +235,7 @@ body.index-surface {
 /* Grundsatz – bleibt in der Erde */
 .grundsatz.still {
   position: absolute;
-  bottom: 10vh;             /* proportional statt 80px */
+  bottom: 14vh;             /* proportional statt 80px */
   left: 50%;
   transform: translateX(-50%);
   z-index: 4;
