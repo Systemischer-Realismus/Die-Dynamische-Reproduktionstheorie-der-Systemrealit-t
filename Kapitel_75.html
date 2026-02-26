@@ -8,6 +8,10 @@
 </head>
 
 <body>
+      <!-- Raumschiff-Button (Rückkehr zur Oberfläche / index.html) -->
+      <div class="ship-return">
+      <a href="index.html" class="ship-button">Raumschiff</a>
+      </div>
   <!-- HEADBAR -->
   <nav class="headbar">
     <ul>
@@ -195,6 +199,13 @@ die Logik ist identisch:</p>
 Instabilität entsteht immer durch dieselben Verluste.</p>
 
 <p>Die Ordnung ist universell.<br />
-Sie ist die Struktur der Welt.</p>
+Sie ist die Struktur der Welt.
+</p>
+<!-- Fortschritt speichern -->
+  <script>
+    const chapterIndex = 75;  // 75 = Kapitelnummer
+    localStorage.setItem('kreisProgress', chapterIndex);
+    localStorage.setItem('lastChapter', window.location.pathname);
+  </script>
 </body>
 </html>

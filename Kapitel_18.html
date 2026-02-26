@@ -8,6 +8,10 @@
 </head>
 
 <body>
+      <!-- Raumschiff-Button (Rückkehr zur Oberfläche / index.html) -->
+      <div class="ship-return">
+      <a href="index.html" class="ship-button">Raumschiff</a>
+      </div>
   <!-- HEADBAR -->
   <nav class="headbar">
     <ul>
@@ -75,6 +79,13 @@ Kohärenz stabilisiert das Ganze.</p>
 Ein System lebt nicht durch die Stärke seiner Elemente, sondern durch die Verlässlichkeit ihrer Beziehungen.<br />
 Nicht durch Kontrolle, sondern durch Vertrauen.<br />
 Nicht durch Konkurrenz, sondern durch Kooperation.<br />
-Ein System lebt, solange seine Kohärenz stärker ist als seine Spannungen.</p>
+Ein System lebt, solange seine Kohärenz stärker ist als seine Spannungen.
+</p>
+<!-- Fortschritt speichern -->
+  <script>
+    const chapterIndex = 18;  // 18 = Kapitelnummer
+    localStorage.setItem('kreisProgress', chapterIndex);
+    localStorage.setItem('lastChapter', window.location.pathname);
+  </script>
 </body>
 </html>

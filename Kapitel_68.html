@@ -8,6 +8,10 @@
 </head>
 
 <body>
+      <!-- Raumschiff-Button (Rückkehr zur Oberfläche / index.html) -->
+      <div class="ship-return">
+      <a href="index.html" class="ship-button">Raumschiff</a>
+      </div>
   <!-- HEADBAR -->
   <nav class="headbar">
     <ul>
@@ -149,6 +153,13 @@ Reproduktion ist dieser Prozess.</p>
 Alles, was instabil ist, hat seine Reproduktion verloren.<br />
 Alles, was Zukunft hat, erneuert sich selbst.</p>
 
-<p>Wir stehen heute auf dem Kopf, weil wir Reproduktion durch Verbrauch ersetzt haben.</p>
+<p>Wir stehen heute auf dem Kopf, weil wir Reproduktion durch Verbrauch ersetzt haben.
+</p>
+<!-- Fortschritt speichern -->
+  <script>
+    const chapterIndex = 68;  // 68 = Kapitelnummer
+    localStorage.setItem('kreisProgress', chapterIndex);
+    localStorage.setItem('lastChapter', window.location.pathname);
+  </script>
 </body>
 </html>

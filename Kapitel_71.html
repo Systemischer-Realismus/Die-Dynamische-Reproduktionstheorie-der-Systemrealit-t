@@ -8,6 +8,10 @@
 </head>
 
 <body>
+      <!-- Raumschiff-Button (Rückkehr zur Oberfläche / index.html) -->
+      <div class="ship-return">
+      <a href="index.html" class="ship-button">Raumschiff</a>
+      </div>
   <!-- HEADBAR -->
   <nav class="headbar">
     <ul>
@@ -182,6 +186,13 @@ können wir aus der Natur lernen.</p>
 Die Natur ist <strong>das</strong> Beispiel.</p>
 
 <p>Sie ist der Beweis, dass Stabilität möglich ist —<br />
-wenn Systeme der Ordnung folgen, die sie trägt.</p>
+wenn Systeme der Ordnung folgen, die sie trägt.
+</p>
+<!-- Fortschritt speichern -->
+  <script>
+    const chapterIndex = 71;  // 71 = Kapitelnummer
+    localStorage.setItem('kreisProgress', chapterIndex);
+    localStorage.setItem('lastChapter', window.location.pathname);
+  </script>
 </body>
 </html>

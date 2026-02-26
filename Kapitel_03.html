@@ -8,6 +8,10 @@
 </head>
 
 <body>
+      <!-- Raumschiff-Button (Rückkehr zur Oberfläche / index.html) -->
+      <div class="ship-return">
+      <a href="index.html" class="ship-button">Raumschiff</a>
+      </div>
   <!-- HEADBAR -->
   <nav class="headbar">
     <ul>
@@ -66,6 +70,13 @@ Wer Kreisläufe zerstört, zerstört die Zukunft.</p>
 <p>Systemischer Realismus erkennt Kreisläufe als die eigentliche Ordnung der Welt.<br />
 Nicht als Metapher, sondern als Strukturprinzip.<br />
 Nicht als Wunsch, sondern als Wirklichkeit.<br />
-Alles, was bleibt, bleibt, weil es zurückkehrt.</p>
+Alles, was bleibt, bleibt, weil es zurückkehrt.
+</p>
+<!-- Fortschritt speichern -->
+  <script>
+    const chapterIndex = 3;  // 3 = Kapitelnummer
+    localStorage.setItem('kreisProgress', chapterIndex);
+    localStorage.setItem('lastChapter', window.location.pathname);
+  </script>
 </body>
 </html>

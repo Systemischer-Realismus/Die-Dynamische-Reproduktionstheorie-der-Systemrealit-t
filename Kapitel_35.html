@@ -8,6 +8,10 @@
 </head>
 
 <body>
+      <!-- Raumschiff-Button (Rückkehr zur Oberfläche / index.html) -->
+      <div class="ship-return">
+      <a href="index.html" class="ship-button">Raumschiff</a>
+      </div>
   <!-- HEADBAR -->
   <nav class="headbar">
     <ul>
@@ -76,6 +80,13 @@ Kohärenz schafft Stabilität im Verbund.</p>
 Ein System lebt nicht allein, sondern im Zusammenhang.<br />
 Nicht durch Isolation, sondern durch tragfähige Beziehungen.<br />
 Nicht durch Unabhängigkeit, sondern durch kohärente Interdependenz.<br />
-Ein System lebt, solange seine Verbindungen tragen — und seine Kopplungen seine Stabilität vertiefen.</p>
+Ein System lebt, solange seine Verbindungen tragen — und seine Kopplungen seine Stabilität vertiefen.
+</p>
+<!-- Fortschritt speichern -->
+  <script>
+    const chapterIndex = 35;  // 35 = Kapitelnummer
+    localStorage.setItem('kreisProgress', chapterIndex);
+    localStorage.setItem('lastChapter', window.location.pathname);
+  </script>
 </body>
 </html>

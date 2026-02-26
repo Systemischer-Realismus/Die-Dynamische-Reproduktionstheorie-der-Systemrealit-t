@@ -8,6 +8,10 @@
 </head>
 
 <body>
+      <!-- Raumschiff-Button (Rückkehr zur Oberfläche / index.html) -->
+      <div class="ship-return">
+      <a href="index.html" class="ship-button">Raumschiff</a>
+      </div>
   <!-- HEADBAR -->
   <nav class="headbar">
     <ul>
@@ -77,6 +81,13 @@ Tragfähigkeit entscheidet, ob beides stabil bleibt.</p>
 Ein System lebt nicht, weil es wächst, sondern weil es wachsen kann, ohne sich selbst zu zerstören.<br />
 Nicht, weil es mehr wird, sondern weil es tiefer wird.<br />
 Nicht, weil es sich ausdehnt, sondern weil es seine eigene Tragfähigkeit versteht.<br />
-Ein System lebt, solange sein Wachstum von seiner Struktur getragen wird – und nicht von seinem Wunsch.</p>
+Ein System lebt, solange sein Wachstum von seiner Struktur getragen wird – und nicht von seinem Wunsch.
+</p>
+<!-- Fortschritt speichern -->
+  <script>
+    const chapterIndex = 29;  // 29 = Kapitelnummer
+    localStorage.setItem('kreisProgress', chapterIndex);
+    localStorage.setItem('lastChapter', window.location.pathname);
+  </script>
 </body>
 </html>

@@ -8,6 +8,10 @@
 </head>
 
 <body>
+      <!-- Raumschiff-Button (Rückkehr zur Oberfläche / index.html) -->
+      <div class="ship-return">
+      <a href="index.html" class="ship-button">Raumschiff</a>
+      </div>
   <!-- HEADBAR -->
   <nav class="headbar">
     <ul>
@@ -105,6 +109,13 @@ beides verhindert Wachstum.</p>
 </ul>
 
 <p>Ein System lebt, solange es lernen kann —<br />
-und solange es bereit ist, sich zu verändern, ohne sich selbst zu verlieren.</p>
+und solange es bereit ist, sich zu verändern, ohne sich selbst zu verlieren.
+</p>
+<!-- Fortschritt speichern -->
+  <script>
+    const chapterIndex = 62;  // 62 = Kapitelnummer
+    localStorage.setItem('kreisProgress', chapterIndex);
+    localStorage.setItem('lastChapter', window.location.pathname);
+  </script>
 </body>
 </html>

@@ -8,6 +8,10 @@
 </head>
 
 <body>
+      <!-- Raumschiff-Button (Rückkehr zur Oberfläche / index.html) -->
+      <div class="ship-return">
+      <a href="index.html" class="ship-button">Raumschiff</a>
+      </div>
   <!-- HEADBAR -->
   <nav class="headbar">
     <ul>
@@ -170,6 +174,13 @@ Stabilität ist ein Kreislauf.</p>
 
 <p>Wir stehen heute auf dem Kopf, weil wir die Logik der Systeme verlassen haben.<br />
 Doch Systeme können wieder stabil werden,<br />
-wenn wir die Prozesse wiederherstellen, die sie tragen.</p>
+wenn wir die Prozesse wiederherstellen, die sie tragen.
+</p>
+<!-- Fortschritt speichern -->
+  <script>
+    const chapterIndex = 70;  // 70 = Kapitelnummer
+    localStorage.setItem('kreisProgress', chapterIndex);
+    localStorage.setItem('lastChapter', window.location.pathname);
+  </script>
 </body>
 </html>

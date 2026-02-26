@@ -8,6 +8,10 @@
 </head>
 
 <body>
+      <!-- Raumschiff-Button (Rückkehr zur Oberfläche / index.html) -->
+      <div class="ship-return">
+      <a href="index.html" class="ship-button">Raumschiff</a>
+      </div>
   <!-- HEADBAR -->
   <nav class="headbar">
     <ul>
@@ -120,6 +124,13 @@ und Aufwand zum Symptom struktureller Erschöpfung.</p>
 </ul>
 
 <p>Ein System lebt, solange seine Energie nicht verbraucht wird, um das Alte zu retten —<br />
-sondern genutzt wird, um das Tragfähige zu stärken.</p>
+sondern genutzt wird, um das Tragfähige zu stärken.
+</p>
+<!-- Fortschritt speichern -->
+  <script>
+    const chapterIndex = 46;  // 46 = Kapitelnummer
+    localStorage.setItem('kreisProgress', chapterIndex);
+    localStorage.setItem('lastChapter', window.location.pathname);
+  </script>
 </body>
 </html>

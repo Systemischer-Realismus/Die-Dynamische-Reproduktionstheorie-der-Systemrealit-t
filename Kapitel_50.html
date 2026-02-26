@@ -8,6 +8,10 @@
 </head>
 
 <body>
+      <!-- Raumschiff-Button (Rückkehr zur Oberfläche / index.html) -->
+      <div class="ship-return">
+      <a href="index.html" class="ship-button">Raumschiff</a>
+      </div>
   <!-- HEADBAR -->
   <nav class="headbar">
     <ul>
@@ -105,6 +109,13 @@ und Möglichkeit zur Illusion.</p>
 </ul>
 
 <p>Ein System lebt, solange es mehr Möglichkeiten hat, als es braucht —<br />
-und solange es offen genug bleibt, um neue Möglichkeiten entstehen zu lassen.</p>
+und solange es offen genug bleibt, um neue Möglichkeiten entstehen zu lassen.
+</p>
+<!-- Fortschritt speichern -->
+  <script>
+    const chapterIndex = 50;  // 50 = Kapitelnummer
+    localStorage.setItem('kreisProgress', chapterIndex);
+    localStorage.setItem('lastChapter', window.location.pathname);
+  </script>
 </body>
 </html>

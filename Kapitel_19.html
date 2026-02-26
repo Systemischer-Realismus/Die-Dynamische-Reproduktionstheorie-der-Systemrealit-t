@@ -8,6 +8,10 @@
 </head>
 
 <body>
+      <!-- Raumschiff-Button (Rückkehr zur Oberfläche / index.html) -->
+      <div class="ship-return">
+      <a href="index.html" class="ship-button">Raumschiff</a>
+      </div>
   <!-- HEADBAR -->
   <nav class="headbar">
     <ul>
@@ -75,6 +79,13 @@ Priorisierung entscheidet, ob das System trotz dieser Begrenzung bestehen kann.<
 Ein System lebt nicht von dem, was es besitzt, sondern von dem, was es binden kann.<br />
 Nicht von der Menge seiner Ressourcen, sondern von der Klarheit seiner Prioritäten.<br />
 Nicht von der Fülle, sondern von der Fähigkeit, das Wesentliche zu schützen.<br />
-Ein System lebt, solange es seine Ressourcen nicht verschwendet – und seine Prioritäten nicht verliert.</p>
+Ein System lebt, solange es seine Ressourcen nicht verschwendet – und seine Prioritäten nicht verliert.
+</p>
+<!-- Fortschritt speichern -->
+  <script>
+    const chapterIndex = 19;  // 19 = Kapitelnummer
+    localStorage.setItem('kreisProgress', chapterIndex);
+    localStorage.setItem('lastChapter', window.location.pathname);
+  </script>
 </body>
 </html>

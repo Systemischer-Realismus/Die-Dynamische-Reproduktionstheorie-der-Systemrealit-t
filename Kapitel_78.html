@@ -8,6 +8,10 @@
 </head>
 
 <body>
+      <!-- Raumschiff-Button (Rückkehr zur Oberfläche / index.html) -->
+      <div class="ship-return">
+      <a href="index.html" class="ship-button">Raumschiff</a>
+      </div>
   <!-- HEADBAR -->
   <nav class="headbar">
     <ul>
@@ -208,5 +212,11 @@ Sie ist die logische Folge der Verletzung der universellen Prinzipien:</p>
   <li>zerstörter Rhythmus</li>
   <li>entkoppelter Mehrwert</li>
 </ul>
+<!-- Fortschritt speichern -->
+  <script>
+    const chapterIndex = 78;  // 78 = Kapitelnummer
+    localStorage.setItem('kreisProgress', chapterIndex);
+    localStorage.setItem('lastChapter', window.location.pathname);
+  </script>
 </body>
 </html>

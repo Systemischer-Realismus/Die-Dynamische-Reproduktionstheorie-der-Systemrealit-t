@@ -8,6 +8,10 @@
 </head>
 
 <body>
+      <!-- Raumschiff-Button (Rückkehr zur Oberfläche / index.html) -->
+      <div class="ship-return">
+      <a href="index.html" class="ship-button">Raumschiff</a>
+      </div>
   <!-- HEADBAR -->
   <nav class="headbar">
     <ul>
@@ -78,6 +82,13 @@ Ein System ist nicht stabil, weil es bleibt, wie es ist.<br />
 Ein System ist stabil, weil es sich im richtigen Moment verändert.<br />
 Weil es seinen Rhythmus hält.<br />
 Weil es die Zeit nicht bekämpft, sondern mit ihr arbeitet.<br />
-Ein System lebt, solange es im Fluss der Zeit seinen eigenen Takt findet.</p>
+Ein System lebt, solange es im Fluss der Zeit seinen eigenen Takt findet.
+</p>
+<!-- Fortschritt speichern -->
+  <script>
+    const chapterIndex = 13;  // 13 = Kapitelnummer
+    localStorage.setItem('kreisProgress', chapterIndex);
+    localStorage.setItem('lastChapter', window.location.pathname);
+  </script>
 </body>
 </html>

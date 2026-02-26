@@ -8,6 +8,10 @@
 </head>
 
 <body>
+      <!-- Raumschiff-Button (Rückkehr zur Oberfläche / index.html) -->
+      <div class="ship-return">
+      <a href="index.html" class="ship-button">Raumschiff</a>
+      </div>
   <!-- HEADBAR -->
   <nav class="headbar">
     <ul>
@@ -208,6 +212,13 @@ Transformation ist ein systemisches Projekt.</p>
 
 <p>Sie ist möglich,<br />
 weil Systeme sich selbst stabilisieren,<br />
-wenn ihre Ordnung wiederhergestellt wird.</p>
+wenn ihre Ordnung wiederhergestellt wird.
+</p>
+<!-- Fortschritt speichern -->
+  <script>
+    const chapterIndex = 90;  // 90 = Kapitelnummer
+    localStorage.setItem('kreisProgress', chapterIndex);
+    localStorage.setItem('lastChapter', window.location.pathname);
+  </script>
 </body>
 </html>

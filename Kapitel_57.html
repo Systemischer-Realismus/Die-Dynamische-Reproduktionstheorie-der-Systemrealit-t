@@ -8,6 +8,10 @@
 </head>
 
 <body>
+      <!-- Raumschiff-Button (Rückkehr zur Oberfläche / index.html) -->
+      <div class="ship-return">
+      <a href="index.html" class="ship-button">Raumschiff</a>
+      </div>
   <!-- HEADBAR -->
   <nav class="headbar">
     <ul>
@@ -118,6 +122,13 @@ nicht im staatlichen, sondern im strukturellen Sinn.</p>
 </ul>
 
 <p>Ein System lebt, solange seine Macht Resonanz findet —<br />
-und sein Einfluss Strukturen verändert, ohne sie zu zerstören.</p>
+und sein Einfluss Strukturen verändert, ohne sie zu zerstören.
+</p>
+<!-- Fortschritt speichern -->
+  <script>
+    const chapterIndex = 57;  // 57 = Kapitelnummer
+    localStorage.setItem('kreisProgress', chapterIndex);
+    localStorage.setItem('lastChapter', window.location.pathname);
+  </script>
 </body>
 </html>

@@ -8,6 +8,10 @@
 </head>
 
 <body>
+      <!-- Raumschiff-Button (Rückkehr zur Oberfläche / index.html) -->
+      <div class="ship-return">
+      <a href="index.html" class="ship-button">Raumschiff</a>
+      </div>
   <!-- HEADBAR -->
   <nav class="headbar">
     <ul>
@@ -122,6 +126,13 @@ ein Bruch, der das System schwächt.</p>
 </ul>
 
 <p>Ein System lebt, solange seine Form Ausdruck seiner Struktur bleibt —<br />
-und seine Struktur die Form trägt, die es zeigt.</p>
+und seine Struktur die Form trägt, die es zeigt.
+</p>
+<!-- Fortschritt speichern -->
+  <script>
+    const chapterIndex = 52;  // 52 = Kapitelnummer
+    localStorage.setItem('kreisProgress', chapterIndex);
+    localStorage.setItem('lastChapter', window.location.pathname);
+  </script>
 </body>
 </html>

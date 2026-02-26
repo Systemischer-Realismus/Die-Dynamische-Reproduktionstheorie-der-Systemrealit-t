@@ -8,6 +8,10 @@
 </head>
 
 <body>
+      <!-- Raumschiff-Button (Rückkehr zur Oberfläche / index.html) -->
+      <div class="ship-return">
+      <a href="index.html" class="ship-button">Raumschiff</a>
+      </div>
   <!-- HEADBAR -->
   <nav class="headbar">
     <ul>
@@ -203,6 +207,13 @@ Sie braucht keine Programme.</p>
 
 <p>Die neue Epoche bewegt sich,<br />
 weil sie dieselben Prinzipien erfüllt,<br />
-die jedes lebendige System in Bewegung bringen.</p>
+die jedes lebendige System in Bewegung bringen.
+</p>
+<!-- Fortschritt speichern -->
+  <script>
+    const chapterIndex = 106;  // 106 = Kapitelnummer
+    localStorage.setItem('kreisProgress', chapterIndex);
+    localStorage.setItem('lastChapter', window.location.pathname);
+  </script>
 </body>
 </html>

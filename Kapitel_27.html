@@ -8,6 +8,10 @@
 </head>
 
 <body>
+      <!-- Raumschiff-Button (Rückkehr zur Oberfläche / index.html) -->
+      <div class="ship-return">
+      <a href="index.html" class="ship-button">Raumschiff</a>
+      </div>
   <!-- HEADBAR -->
   <nav class="headbar">
     <ul>
@@ -77,6 +81,13 @@ Erneuerung verankert ihn.</p>
 Ein System lebt nicht, weil es stabil bleibt, sondern weil es sich erneuern kann.<br />
 Nicht, weil es Muster bewahrt, sondern weil es sie verwandelt.<br />
 Nicht, weil es das Alte schützt, sondern weil es das Neue integriert.<br />
-Ein System lebt, solange es den Mut hat, seine Muster zu brechen – und die Kraft, aus dem Bruch eine neue Ordnung zu formen.</p>
+Ein System lebt, solange es den Mut hat, seine Muster zu brechen – und die Kraft, aus dem Bruch eine neue Ordnung zu formen.
+</p>
+<!-- Fortschritt speichern -->
+  <script>
+    const chapterIndex = 27;  // 27 = Kapitelnummer
+    localStorage.setItem('kreisProgress', chapterIndex);
+    localStorage.setItem('lastChapter', window.location.pathname);
+  </script>
 </body>
 </html>

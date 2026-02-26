@@ -8,6 +8,10 @@
 </head>
 
 <body>
+      <!-- Raumschiff-Button (Rückkehr zur Oberfläche / index.html) -->
+      <div class="ship-return">
+      <a href="index.html" class="ship-button">Raumschiff</a>
+      </div>
   <!-- HEADBAR -->
   <nav class="headbar">
     <ul>
@@ -75,6 +79,13 @@ Ein System lebt nicht durch äußere Ordnung, sondern durch innere Stimmigkeit.<
 Nicht durch starre Struktur, sondern durch tragfähige Elastizität.<br />
 Nicht durch perfekte Form, sondern durch eine Form, die seine Prozesse trägt.<br />
 Ein System lebt, solange seine Ordnung aus seiner eigenen Wirklichkeit entsteht – <br />
-und nicht gegen sie.</p>
+und nicht gegen sie.
+</p>
+<!-- Fortschritt speichern -->
+  <script>
+    const chapterIndex = 24;  // 24 = Kapitelnummer
+    localStorage.setItem('kreisProgress', chapterIndex);
+    localStorage.setItem('lastChapter', window.location.pathname);
+  </script>
 </body>
 </html>

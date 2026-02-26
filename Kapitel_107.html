@@ -8,6 +8,10 @@
 </head>
 
 <body>
+      <!-- Raumschiff-Button (Rückkehr zur Oberfläche / index.html) -->
+      <div class="ship-return">
+      <a href="index.html" class="ship-button">Raumschiff</a>
+      </div>
   <!-- HEADBAR -->
   <nav class="headbar">
     <ul>
@@ -210,6 +214,13 @@ Sie braucht keine Zentralisierung.</p>
 <p>Die neue Epoche beschleunigt sich selbst,<br />
 weil sie dieselben Prinzipien erfüllt,<br />
 die jedes lebendige System<br />
-in seine Entfaltung führen.</p>
+in seine Entfaltung führen.
+</p>
+<!-- Fortschritt speichern -->
+  <script>
+    const chapterIndex = 107;  // 107 = Kapitelnummer
+    localStorage.setItem('kreisProgress', chapterIndex);
+    localStorage.setItem('lastChapter', window.location.pathname);
+  </script>
 </body>
 </html>

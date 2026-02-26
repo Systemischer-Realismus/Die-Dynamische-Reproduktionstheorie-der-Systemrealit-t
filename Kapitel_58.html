@@ -8,6 +8,10 @@
 </head>
 
 <body>
+      <!-- Raumschiff-Button (Rückkehr zur Oberfläche / index.html) -->
+      <div class="ship-return">
+      <a href="index.html" class="ship-button">Raumschiff</a>
+      </div>
   <!-- HEADBAR -->
   <nav class="headbar">
     <ul>
@@ -114,6 +118,13 @@ nicht im moralischen, sondern im strukturellen Sinn.</p>
 </ul>
 
 <p>Ein System lebt, solange es Verantwortung übernehmen kann —<br />
-und seine Integrität nicht verliert, wenn es auf die Welt antwortet.</p>
+und seine Integrität nicht verliert, wenn es auf die Welt antwortet.
+</p>
+<!-- Fortschritt speichern -->
+  <script>
+    const chapterIndex = 58;  // 58 = Kapitelnummer
+    localStorage.setItem('kreisProgress', chapterIndex);
+    localStorage.setItem('lastChapter', window.location.pathname);
+  </script>
 </body>
 </html>

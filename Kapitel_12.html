@@ -8,6 +8,10 @@
 </head>
 
 <body>
+      <!-- Raumschiff-Button (Rückkehr zur Oberfläche / index.html) -->
+      <div class="ship-return">
+      <a href="index.html" class="ship-button">Raumschiff</a>
+      </div>
   <!-- HEADBAR -->
   <nav class="headbar">
     <ul>
@@ -73,6 +77,13 @@ Sie entscheiden darüber, ob ein System seine Grenzen erkennt, seine Möglichkei
 <p>Systemischer Realismus versteht Information nicht als Datenmenge, sondern als Beziehung zwischen System und Welt.<br />
 Wahrnehmung nicht als Abbild, sondern als Auswahl.<br />
 Orientierung nicht als Kontrolle, sondern als Fähigkeit, im Fluss der Wirklichkeit stabil zu bleiben.<br />
-Ein System lebt, solange es unterscheiden kann, was es trägt – und was es zerstört.</p>
+Ein System lebt, solange es unterscheiden kann, was es trägt – und was es zerstört.
+</p>
+<!-- Fortschritt speichern -->
+  <script>
+    const chapterIndex = 12;  // 12 = Kapitelnummer
+    localStorage.setItem('kreisProgress', chapterIndex);
+    localStorage.setItem('lastChapter', window.location.pathname);
+  </script>
 </body>
 </html>

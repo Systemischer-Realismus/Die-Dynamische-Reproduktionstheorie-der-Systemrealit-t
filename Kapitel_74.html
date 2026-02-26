@@ -8,6 +8,10 @@
 </head>
 
 <body>
+      <!-- Raumschiff-Button (Rückkehr zur Oberfläche / index.html) -->
+      <div class="ship-return">
+      <a href="index.html" class="ship-button">Raumschiff</a>
+      </div>
   <!-- HEADBAR -->
   <nav class="headbar">
     <ul>
@@ -193,7 +197,6 @@ schafft die Grundlage für große.</p>
 <p>Die ersten Schritte sind einfach.<br />
 Sie sind klar.<br />
 Sie sind systemisch.</p>
-
 <ul>
   <li>Energieverluste stoppen</li>
   <li>Kreisläufe sichtbar machen</li>
@@ -203,5 +206,11 @@ Sie sind systemisch.</p>
   <li>Rhythmus finden</li>
   <li>kleine Kreisläufe schließen</li>
 </ul>
+<!-- Fortschritt speichern -->
+  <script>
+    const chapterIndex = 74;  // 74 = Kapitelnummer
+    localStorage.setItem('kreisProgress', chapterIndex);
+    localStorage.setItem('lastChapter', window.location.pathname);
+  </script>
 </body>
 </html>

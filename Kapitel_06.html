@@ -8,6 +8,10 @@
 </head>
 
 <body>
+      <!-- Raumschiff-Button (Rückkehr zur Oberfläche / index.html) -->
+      <div class="ship-return">
+      <a href="index.html" class="ship-button">Raumschiff</a>
+      </div>
   <!-- HEADBAR -->
   <nav class="headbar">
     <ul>
@@ -73,6 +77,13 @@ Nicht das starre System überlebt, sondern das lernfähige.<br />
 Nicht das geschlossene System bleibt bestehen, sondern das, das seine Grenzen intelligent nutzt.<br />
 Nicht das perfekte System ist stabil, sondern das anpassungsfähige.<br />
 Ein System lebt, solange es sich erneuern kann.<br />
-Es stirbt, wenn es sich weigert, sich zu verändern.</p>
+Es stirbt, wenn es sich weigert, sich zu verändern.
+</p>
+<!-- Fortschritt speichern -->
+  <script>
+    const chapterIndex = 6;  // 6 = Kapitelnummer
+    localStorage.setItem('kreisProgress', chapterIndex);
+    localStorage.setItem('lastChapter', window.location.pathname);
+  </script>
 </body>
 </html>

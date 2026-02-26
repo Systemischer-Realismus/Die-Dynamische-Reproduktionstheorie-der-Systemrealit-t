@@ -8,6 +8,10 @@
 </head>
 
 <body>
+      <!-- Raumschiff-Button (Rückkehr zur Oberfläche / index.html) -->
+      <div class="ship-return">
+      <a href="index.html" class="ship-button">Raumschiff</a>
+      </div>
   <!-- HEADBAR -->
   <nav class="headbar">
     <ul>
@@ -119,6 +123,13 @@ Sie:</p>
 </ul>
 
 <p>Ein System lebt, solange es Komplexität nicht fürchtet —<br />
-und Reduktion nicht missbraucht.</p>
+und Reduktion nicht missbraucht.
+</p>
+<!-- Fortschritt speichern -->
+  <script>
+    const chapterIndex = 53;  // 53 = Kapitelnummer
+    localStorage.setItem('kreisProgress', chapterIndex);
+    localStorage.setItem('lastChapter', window.location.pathname);
+  </script>
 </body>
 </html>

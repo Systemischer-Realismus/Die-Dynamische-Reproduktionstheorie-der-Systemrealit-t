@@ -8,6 +8,10 @@
 </head>
 
 <body>
+      <!-- Raumschiff-Button (Rückkehr zur Oberfläche / index.html) -->
+      <div class="ship-return">
+      <a href="index.html" class="ship-button">Raumschiff</a>
+      </div>
   <!-- HEADBAR -->
   <nav class="headbar">
     <ul>
@@ -204,6 +208,13 @@ der wieder in Ordnung ist.<br />
 Es ist die Intelligenz einer Menschheit,<br />
 die wieder Teil des Systems ist.<br />
 Es ist die Intelligenz einer Epoche,<br />
-die sich selbst trägt.</p>
+die sich selbst trägt.
+</p>
+<!-- Fortschritt speichern -->
+  <script>
+    const chapterIndex = 101;  // 101 = Kapitelnummer
+    localStorage.setItem('kreisProgress', chapterIndex);
+    localStorage.setItem('lastChapter', window.location.pathname);
+  </script>
 </body>
 </html>

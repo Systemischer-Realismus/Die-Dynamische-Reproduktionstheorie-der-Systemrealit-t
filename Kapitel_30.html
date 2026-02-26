@@ -8,6 +8,10 @@
 </head>
 
 <body>
+      <!-- Raumschiff-Button (Rückkehr zur Oberfläche / index.html) -->
+      <div class="ship-return">
+      <a href="index.html" class="ship-button">Raumschiff</a>
+      </div>
   <!-- HEADBAR -->
   <nav class="headbar">
     <ul>
@@ -77,6 +81,13 @@ Wirklichkeit entsteht aus dem Zusammenspiel beider.</p>
 Ein System lebt nicht durch das Bild, das es von sich hat, sondern durch die Fähigkeit, dieses Bild zu verändern.<br />
 Nicht durch starre Identität, sondern durch anschlussfähige Selbstbeschreibung.<br />
 Nicht durch eine Wirklichkeit, die behauptet wird, sondern durch eine Wirklichkeit, die verarbeitet werden kann.<br />
-Ein System lebt, solange es sich selbst beschreiben kann – und bereit ist, diese Beschreibung zu erneuern.</p>
+Ein System lebt, solange es sich selbst beschreiben kann – und bereit ist, diese Beschreibung zu erneuern.
+</p>
+<!-- Fortschritt speichern -->
+  <script>
+    const chapterIndex = 30;  // 30 = Kapitelnummer
+    localStorage.setItem('kreisProgress', chapterIndex);
+    localStorage.setItem('lastChapter', window.location.pathname);
+  </script>
 </body>
 </html>

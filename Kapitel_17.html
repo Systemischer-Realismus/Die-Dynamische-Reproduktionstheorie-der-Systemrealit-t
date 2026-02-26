@@ -8,6 +8,10 @@
 </head>
 
 <body>
+      <!-- Raumschiff-Button (Rückkehr zur Oberfläche / index.html) -->
+      <div class="ship-return">
+      <a href="index.html" class="ship-button">Raumschiff</a>
+      </div>
   <!-- HEADBAR -->
   <nav class="headbar">
     <ul>
@@ -75,6 +79,13 @@ Unvorhersehbarkeit schafft die Notwendigkeit, flexibel zu bleiben.</p>
 Ein System ist nicht stabil, weil es einfach ist, sondern weil es mit seiner eigenen Komplexität umgehen kann.<br />
 Nicht, weil es alles vorhersehen kann, sondern weil es auf das Unvorhersehbare vorbereitet ist.<br />
 Nicht, weil es Kontrolle besitzt, sondern weil es Beziehungen pflegt, die es tragen.<br />
-Ein System lebt, solange es die Kraft seiner eigenen Emergenz nicht fürchtet.</p>
+Ein System lebt, solange es die Kraft seiner eigenen Emergenz nicht fürchtet.
+</p>
+<!-- Fortschritt speichern -->
+  <script>
+    const chapterIndex = 17;  // 17 = Kapitelnummer
+    localStorage.setItem('kreisProgress', chapterIndex);
+    localStorage.setItem('lastChapter', window.location.pathname);
+  </script>
 </body>
 </html>

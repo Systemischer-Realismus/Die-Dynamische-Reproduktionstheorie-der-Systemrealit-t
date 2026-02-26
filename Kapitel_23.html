@@ -8,6 +8,10 @@
 </head>
 
 <body>
+      <!-- Raumschiff-Button (Rückkehr zur Oberfläche / index.html) -->
+      <div class="ship-return">
+      <a href="index.html" class="ship-button">Raumschiff</a>
+      </div>
   <!-- HEADBAR -->
   <nav class="headbar">
     <ul>
@@ -78,6 +82,13 @@ Resonanz ermöglicht Stabilität im Austausch.</p>
 Ein System lebt nicht gegen seine Umwelt, sondern mit ihr.<br />
 Nicht durch Abschottung, sondern durch Anschlussfähigkeit.<br />
 Nicht durch Dominanz, sondern durch Resonanz.<br />
-Ein System lebt, solange es in seiner Umwelt nicht untergeht – und nicht erstarrt, sondern mitschwingt.</p>
+Ein System lebt, solange es in seiner Umwelt nicht untergeht – und nicht erstarrt, sondern mitschwingt.
+</p>
+<!-- Fortschritt speichern -->
+  <script>
+    const chapterIndex = 23;  // 23 = Kapitelnummer
+    localStorage.setItem('kreisProgress', chapterIndex);
+    localStorage.setItem('lastChapter', window.location.pathname);
+  </script>
 </body>
 </html>

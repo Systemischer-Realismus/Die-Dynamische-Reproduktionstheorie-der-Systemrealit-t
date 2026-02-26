@@ -8,6 +8,10 @@
 </head>
 
 <body>
+      <!-- Raumschiff-Button (Rückkehr zur Oberfläche / index.html) -->
+      <div class="ship-return">
+      <a href="index.html" class="ship-button">Raumschiff</a>
+      </div>
   <!-- HEADBAR -->
   <nav class="headbar">
     <ul>
@@ -65,6 +69,13 @@ Wenn Beziehungen zerstört werden, zerfällt das System.</p>
 Nicht durch die Größe seiner Elemente.<br />
 Nicht durch die Macht einzelner Akteure.<br />
 Sondern durch die Fähigkeit, Wirkung gemeinsam hervorzubringen.<br />
-Alles, was wirkt, wirkt im Zusammenhang.</p>
+Alles, was wirkt, wirkt im Zusammenhang.
+</p>
+<!-- Fortschritt speichern -->
+  <script>
+    const chapterIndex = 7;  // 7 = Kapitelnummer
+    localStorage.setItem('kreisProgress', chapterIndex);
+    localStorage.setItem('lastChapter', window.location.pathname);
+  </script>
 </body>
 </html>

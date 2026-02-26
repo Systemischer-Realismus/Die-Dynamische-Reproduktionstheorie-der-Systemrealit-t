@@ -8,6 +8,10 @@
 </head>
 
 <body>
+      <!-- Raumschiff-Button (Rückkehr zur Oberfläche / index.html) -->
+      <div class="ship-return">
+      <a href="index.html" class="ship-button">Raumschiff</a>
+      </div>
   <!-- HEADBAR -->
   <nav class="headbar">
     <ul>
@@ -74,6 +78,13 @@ Selbstbeschreibung ist das, was verstanden wird.</p>
 Ein System ist nicht das, was es sagt, sondern das, was es tut.<br />
 Nicht das, was es glaubt, sondern das, was es reproduziert.<br />
 Nicht das Bild, das es von sich trägt, sondern das Muster, das es erhält.<br />
-Ein System lebt, solange seine Selbstbeschreibung mit seiner Wirklichkeit verbunden bleibt.</p>
+Ein System lebt, solange seine Selbstbeschreibung mit seiner Wirklichkeit verbunden bleibt.
+</p>
+<!-- Fortschritt speichern -->
+  <script>
+    const chapterIndex = 14;  // 14 = Kapitelnummer
+    localStorage.setItem('kreisProgress', chapterIndex);
+    localStorage.setItem('lastChapter', window.location.pathname);
+  </script>
 </body>
 </html>

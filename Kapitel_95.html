@@ -8,6 +8,10 @@
 </head>
 
 <body>
+      <!-- Raumschiff-Button (Rückkehr zur Oberfläche / index.html) -->
+      <div class="ship-return">
+      <a href="index.html" class="ship-button">Raumschiff</a>
+      </div>
   <!-- HEADBAR -->
   <nav class="headbar">
     <ul>
@@ -197,6 +201,13 @@ Eine Praxis.<br />
 Eine Haltung.</p>
 
 <p>Sie ist die Rückkehr in die Ordnung,<br />
-die die Welt trägt.</p>
+die die Welt trägt.
+</p>
+<!-- Fortschritt speichern -->
+  <script>
+    const chapterIndex = 95;  // 95 = Kapitelnummer
+    localStorage.setItem('kreisProgress', chapterIndex);
+    localStorage.setItem('lastChapter', window.location.pathname);
+  </script>
 </body>
 </html>

@@ -8,6 +8,10 @@
 </head>
 
 <body>
+      <!-- Raumschiff-Button (Rückkehr zur Oberfläche / index.html) -->
+      <div class="ship-return">
+      <a href="index.html" class="ship-button">Raumschiff</a>
+      </div>
   <!-- HEADBAR -->
   <nav class="headbar">
     <ul>
@@ -152,6 +156,13 @@ Zukunft ist ein Kreislauf.</p>
 Alles, was stabil ist, kreist.<br />
 Alles, was Zukunft hat, kreist.</p>
 
-<p>Wir stehen heute auf dem Kopf, weil wir diese Logik verlassen haben.</p>
+<p>Wir stehen heute auf dem Kopf, weil wir diese Logik verlassen haben.
+</p>
+<!-- Fortschritt speichern -->
+  <script>
+    const chapterIndex = 67;  // 67 = Kapitelnummer
+    localStorage.setItem('kreisProgress', chapterIndex);
+    localStorage.setItem('lastChapter', window.location.pathname);
+  </script>
 </body>
 </html>

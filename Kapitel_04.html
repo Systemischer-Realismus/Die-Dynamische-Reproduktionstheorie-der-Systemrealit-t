@@ -8,6 +8,10 @@
 </head>
 
 <body>
+      <!-- Raumschiff-Button (Rückkehr zur Oberfläche / index.html) -->
+      <div class="ship-return">
+      <a href="index.html" class="ship-button">Raumschiff</a>
+      </div>
   <!-- HEADBAR -->
   <nav class="headbar">
     <ul>
@@ -65,6 +69,13 @@ Nicht als Vorrat, sondern als Fluss.<br />
 Nicht als Eigentum, sondern als Bedingung.<br />
 Wer Energie versteht, versteht Mehrwert.<br />
 Wer Mehrwert versteht, versteht Verlust.<br />
-Wer Verlust versteht, versteht die Dynamik, die Systeme trägt – oder zerstört.</p>
+Wer Verlust versteht, versteht die Dynamik, die Systeme trägt – oder zerstört.
+</p>
+<!-- Fortschritt speichern -->
+  <script>
+    const chapterIndex = 4;  // 4 = Kapitelnummer
+    localStorage.setItem('kreisProgress', chapterIndex);
+    localStorage.setItem('lastChapter', window.location.pathname);
+  </script>
 </body>
 </html>

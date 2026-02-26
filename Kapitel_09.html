@@ -8,6 +8,10 @@
 </head>
 
 <body>
+      <!-- Raumschiff-Button (Rückkehr zur Oberfläche / index.html) -->
+      <div class="ship-return">
+      <a href="index.html" class="ship-button">Raumschiff</a>
+      </div>
   <!-- HEADBAR -->
   <nav class="headbar">
     <ul>
@@ -80,6 +84,13 @@ Wer sie ignoriert, verliert die Zukunft.</p>
 Nicht als Versprechen, sondern als Risiko.<br />
 Nicht als Fortschritt, sondern als Belastung, wenn die Rückführung nicht mithält.<br />
 Ein System lebt nicht, weil es wächst.<br />
-Ein System lebt, weil es sich erhält.</p>
+Ein System lebt, weil es sich erhält.
+</p>
+<!-- Fortschritt speichern -->
+  <script>
+    const chapterIndex = 9;  // 9 = Kapitelnummer
+    localStorage.setItem('kreisProgress', chapterIndex);
+    localStorage.setItem('lastChapter', window.location.pathname);
+  </script>
 </body>
 </html>

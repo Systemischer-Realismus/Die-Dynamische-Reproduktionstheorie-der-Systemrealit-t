@@ -8,6 +8,10 @@
 </head>
 
 <body>
+      <!-- Raumschiff-Button (Rückkehr zur Oberfläche / index.html) -->
+      <div class="ship-return">
+      <a href="index.html" class="ship-button">Raumschiff</a>
+      </div>
   <!-- HEADBAR -->
   <nav class="headbar">
     <ul>
@@ -78,6 +82,13 @@ Dauer ist ihre Stabilität.</p>
 Ein System lebt nicht in der Zeit, sondern durch seine eigene Zeit.<br />
 Nicht durch äußere Takte, sondern durch innere Rhythmen.<br />
 Nicht durch Geschwindigkeit, sondern durch Dauer.<br />
-Ein System lebt, solange sein Rhythmus trägt – und seine Zeit nicht gegen seine Struktur arbeitet.</p>
+Ein System lebt, solange sein Rhythmus trägt – und seine Zeit nicht gegen seine Struktur arbeitet.
+</p>
+<!-- Fortschritt speichern -->
+  <script>
+    const chapterIndex = 31;  // 31 = Kapitelnummer
+    localStorage.setItem('kreisProgress', chapterIndex);
+    localStorage.setItem('lastChapter', window.location.pathname);
+  </script>
 </body>
 </html>

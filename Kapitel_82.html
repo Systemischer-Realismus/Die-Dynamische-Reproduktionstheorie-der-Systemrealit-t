@@ -8,6 +8,10 @@
 </head>
 
 <body>
+      <!-- Raumschiff-Button (Rückkehr zur Oberfläche / index.html) -->
+      <div class="ship-return">
+      <a href="index.html" class="ship-button">Raumschiff</a>
+      </div>
   <!-- HEADBAR -->
   <nav class="headbar">
     <ul>
@@ -219,6 +223,13 @@ wenn der Planet seine Kreisläufe verliert.</p>
 wenn der Planet seine Zukunft verliert.</p>
 
 <p>Die Zukunft der Menschheit hängt vollständig<br />
-von der planetaren Ordnung ab.</p>
+von der planetaren Ordnung ab.
+</p>
+<!-- Fortschritt speichern -->
+  <script>
+    const chapterIndex = 82;  // 82 = Kapitelnummer
+    localStorage.setItem('kreisProgress', chapterIndex);
+    localStorage.setItem('lastChapter', window.location.pathname);
+  </script>
 </body>
 </html>

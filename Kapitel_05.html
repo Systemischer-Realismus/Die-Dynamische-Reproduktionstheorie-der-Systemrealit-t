@@ -8,6 +8,10 @@
 </head>
 
 <body>
+      <!-- Raumschiff-Button (Rückkehr zur Oberfläche / index.html) -->
+      <div class="ship-return">
+      <a href="index.html" class="ship-button">Raumschiff</a>
+      </div>
   <!-- HEADBAR -->
   <nav class="headbar">
     <ul>
@@ -67,6 +71,13 @@ Nicht als Objekte, sondern als Muster.<br />
 Nicht als starre Einheiten, sondern als dynamische Ordnungen, die sich nur durch ihre Struktur erhalten.<br />
 Wer die Form eines Systems versteht, versteht seine Möglichkeiten.<br />
 Wer seine Struktur erkennt, versteht seine Stabilität.<br />
-Wer seine Grenzen sieht, versteht seine Zukunft.</p>
+Wer seine Grenzen sieht, versteht seine Zukunft.
+</p>
+<!-- Fortschritt speichern -->
+  <script>
+    const chapterIndex = 5;  // 5 = Kapitelnummer
+    localStorage.setItem('kreisProgress', chapterIndex);
+    localStorage.setItem('lastChapter', window.location.pathname);
+  </script>
 </body>
 </html>

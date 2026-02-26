@@ -8,6 +8,10 @@
 </head>
 
 <body>
+      <!-- Raumschiff-Button (Rückkehr zur Oberfläche / index.html) -->
+      <div class="ship-return">
+      <a href="index.html" class="ship-button">Raumschiff</a>
+      </div>
   <!-- HEADBAR -->
   <nav class="headbar">
     <ul>
@@ -205,6 +209,13 @@ wenn sie:</p>
 
 <p>Die neue Epoche bleibt,<br />
 weil sie dieselben Prinzipien erfüllt,<br />
-die jedes stabile System erfüllen muss.</p>
+die jedes stabile System erfüllen muss.
+</p>
+<!-- Fortschritt speichern -->
+  <script>
+    const chapterIndex = 99;  // 99 = Kapitelnummer
+    localStorage.setItem('kreisProgress', chapterIndex);
+    localStorage.setItem('lastChapter', window.location.pathname);
+  </script>
 </body>
 </html>

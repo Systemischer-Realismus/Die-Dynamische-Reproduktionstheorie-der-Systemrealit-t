@@ -8,6 +8,10 @@
 </head>
 
 <body>
+      <!-- Raumschiff-Button (Rückkehr zur Oberfläche / index.html) -->
+      <div class="ship-return">
+      <a href="index.html" class="ship-button">Raumschiff</a>
+      </div>
   <!-- HEADBAR -->
   <nav class="headbar">
     <ul>
@@ -75,6 +79,13 @@ Selbsterhaltung sichert die Zukunft.</p>
 Ein System lebt nicht, weil es stark ist, sondern weil es seine eigenen Wirkungen regulieren kann.<br />
 Nicht, weil es Störungen vermeidet, sondern weil es sie integriert.<br />
 Nicht, weil es unveränderlich ist, sondern weil es seine Stabilität immer wieder neu erzeugt.<br />
-Ein System lebt, solange seine Rückkopplungen tragfähig bleiben – und seine Selbsterhaltung gelingt.</p>
+Ein System lebt, solange seine Rückkopplungen tragfähig bleiben – und seine Selbsterhaltung gelingt.
+</p>
+<!-- Fortschritt speichern -->
+  <script>
+    const chapterIndex = 22;  // 22 = Kapitelnummer
+    localStorage.setItem('kreisProgress', chapterIndex);
+    localStorage.setItem('lastChapter', window.location.pathname);
+  </script>
 </body>
 </html>

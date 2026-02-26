@@ -8,6 +8,10 @@
 </head>
 
 <body>
+      <!-- Raumschiff-Button (Rückkehr zur Oberfläche / index.html) -->
+      <div class="ship-return">
+      <a href="index.html" class="ship-button">Raumschiff</a>
+      </div>
   <!-- HEADBAR -->
   <nav class="headbar">
     <ul>
@@ -78,6 +82,13 @@ Ein System lebt nicht, weil es bleibt, wie es ist.<br />
 Ein System lebt, weil es die Fähigkeit besitzt, seine Form zu wechseln, wenn die Wirklichkeit es verlangt.<br />
 Weil es Übergänge nicht fürchtet, sondern nutzt.<br />
 Weil es seine Grenzen nicht als Ende versteht, sondern als Beginn einer neuen Ordnung.<br />
-Ein System lebt, solange es den Mut hat, sich selbst zu überschreiten.</p>
+Ein System lebt, solange es den Mut hat, sich selbst zu überschreiten.
+</p>
+<!-- Fortschritt speichern -->
+  <script>
+    const chapterIndex = 21;  // 21 = Kapitelnummer
+    localStorage.setItem('kreisProgress', chapterIndex);
+    localStorage.setItem('lastChapter', window.location.pathname);
+  </script>
 </body>
 </html>

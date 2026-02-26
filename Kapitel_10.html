@@ -8,6 +8,10 @@
 </head>
 
 <body>
+      <!-- Raumschiff-Button (Rückkehr zur Oberfläche / index.html) -->
+      <div class="ship-return">
+      <a href="index.html" class="ship-button">Raumschiff</a>
+      </div>
   <!-- HEADBAR -->
   <nav class="headbar">
     <ul>
@@ -74,6 +78,13 @@ Sie sind keine moralischen Kategorien, sondern strukturelle Notwendigkeiten.</p>
 Ein Element ist nicht wichtig, weil es groß ist, sondern weil es wirkt.<br />
 Nicht mächtig, weil es will, sondern weil es ermöglicht.<br />
 Nicht verantwortlich, weil es soll, sondern weil es Teil eines Zusammenhangs ist.<br />
-Alles, was wirkt, trägt Verantwortung für die Wirkung.</p>
+Alles, was wirkt, trägt Verantwortung für die Wirkung.
+</p>
+<!-- Fortschritt speichern -->
+  <script>
+    const chapterIndex = 10;  // 10 = Kapitelnummer
+    localStorage.setItem('kreisProgress', chapterIndex);
+    localStorage.setItem('lastChapter', window.location.pathname);
+  </script>
 </body>
 </html>

@@ -9,6 +9,10 @@
 
 <body>
   <!-- HEADBAR -->
+      <!-- Raumschiff-Button (Rückkehr zur Oberfläche / index.html) -->
+      <div class="ship-return">
+      <a href="index.html" class="ship-button">Raumschiff</a>
+      </div>
   <nav class="headbar">
     <ul>
       <li><a href="start.html">KREIS <img src="kosmos.ico" class="kosmos-icon"></a></li>
@@ -173,6 +177,14 @@ die uns seit Millionen Jahren getragen hat.</p>
   <li>wir können die Kreisläufe schließen</li>
 </ul>
 
-<p>Wir müssen nur wieder verstehen, wie Systeme funktionieren.</p>
+<p>Wir müssen nur wieder verstehen, wie Systeme funktionieren.
+  
+</p>
+<!-- Fortschritt speichern -->
+  <script>
+    const chapterIndex = 72;  // 72 = Kapitelnummer
+    localStorage.setItem('kreisProgress', chapterIndex);
+    localStorage.setItem('lastChapter', window.location.pathname);
+  </script>
 </body>
 </html>

@@ -8,6 +8,10 @@
 </head>
 
 <body>
+      <!-- Raumschiff-Button (Rückkehr zur Oberfläche / index.html) -->
+      <div class="ship-return">
+      <a href="index.html" class="ship-button">Raumschiff</a>
+      </div>
   <!-- HEADBAR -->
   <nav class="headbar">
     <ul>
@@ -149,6 +153,14 @@ Zukunft ist Rückführung.</p>
 Alles, was instabil ist, hat die Rückführung verloren.<br />
 Alles, was Zukunft hat, investiert in sich selbst.</p>
 
-<p>Wir stehen heute auf dem Kopf, weil wir Rückführung durch Verbrauch ersetzt haben.</p>
+<p>Wir stehen heute auf dem Kopf, weil wir Rückführung durch Verbrauch ersetzt haben.
+  
+</p>
+<!-- Fortschritt speichern -->
+  <script>
+    const chapterIndex = 69;  // 69 = Kapitelnummer
+    localStorage.setItem('kreisProgress', chapterIndex);
+    localStorage.setItem('lastChapter', window.location.pathname);
+  </script>
 </body>
 </html>

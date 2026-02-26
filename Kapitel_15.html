@@ -8,6 +8,10 @@
 </head>
 
 <body>
+      <!-- Raumschiff-Button (Rückkehr zur Oberfläche / index.html) -->
+      <div class="ship-return">
+      <a href="index.html" class="ship-button">Raumschiff</a>
+      </div>
   <!-- HEADBAR -->
   <nav class="headbar">
     <ul>
@@ -77,6 +81,13 @@ Konflikt ist kein Ende, sondern ein Übergang.<br />
 So wird Konflikt zur Zerstörungskraft.<br />
 Spannung ist kein Risiko, sondern eine Ressource.<br />
 Transformation ist kein Verlust, sondern die Bedingung für Zukunft.<br />
-Ein System lebt, solange es seine Spannungen verwandeln kann.</p>
+Ein System lebt, solange es seine Spannungen verwandeln kann.
+</p>
+<!-- Fortschritt speichern -->
+  <script>
+    const chapterIndex = 15;  // 15 = Kapitelnummer
+    localStorage.setItem('kreisProgress', chapterIndex);
+    localStorage.setItem('lastChapter', window.location.pathname);
+  </script>
 </body>
 </html>

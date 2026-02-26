@@ -8,6 +8,10 @@
 </head>
 
 <body>
+      <!-- Raumschiff-Button (Rückkehr zur Oberfläche / index.html) -->
+      <div class="ship-return">
+      <a href="index.html" class="ship-button">Raumschiff</a>
+      </div>
   <!-- HEADBAR -->
   <nav class="headbar">
     <ul>
@@ -105,6 +109,13 @@ und Einfluss zur Quelle von Instabilität.</p>
 </ul>
 
 <p>Ein System lebt, solange seine Macht Resonanz erzeugt —<br />
-und seine Wirksamkeit seine eigene Stabilität vertieft.</p>
+und seine Wirksamkeit seine eigene Stabilität vertieft.
+</p>
+<!-- Fortschritt speichern -->
+  <script>
+    const chapterIndex = 41;  // 41 = Kapitelnummer
+    localStorage.setItem('kreisProgress', chapterIndex);
+    localStorage.setItem('lastChapter', window.location.pathname);
+  </script>
 </body>
 </html>

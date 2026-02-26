@@ -8,6 +8,10 @@
 </head>
 
 <body>
+      <!-- Raumschiff-Button (Rückkehr zur Oberfläche / index.html) -->
+      <div class="ship-return">
+      <a href="index.html" class="ship-button">Raumschiff</a>
+      </div>
   <!-- HEADBAR -->
   <nav class="headbar">
     <ul>
@@ -75,6 +79,13 @@ Resilienz erzeugt Zukunft.</p>
 Ein System lebt nicht durch Gleichheit, sondern durch tragfähige Unterschiede.<br />
 Nicht durch Homogenität, sondern durch Vielfalt, die wirkt.<br />
 Nicht durch starre Robustheit, sondern durch Resilienz.<br />
-Ein System lebt, solange seine Unterschiede nicht trennen – und seine Vielfalt nicht zerfällt, sondern trägt.</p>
+Ein System lebt, solange seine Unterschiede nicht trennen – und seine Vielfalt nicht zerfällt, sondern trägt.
+</p>
+<!-- Fortschritt speichern -->
+  <script>
+    const chapterIndex = 32;  // 32 = Kapitelnummer
+    localStorage.setItem('kreisProgress', chapterIndex);
+    localStorage.setItem('lastChapter', window.location.pathname);
+  </script>
 </body>
 </html>

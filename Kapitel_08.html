@@ -8,6 +8,10 @@
 </head>
 
 <body>
+      <!-- Raumschiff-Button (Rückkehr zur Oberfläche / index.html) -->
+      <div class="ship-return">
+      <a href="index.html" class="ship-button">Raumschiff</a>
+      </div>
   <!-- HEADBAR -->
   <nav class="headbar">
     <ul>
@@ -72,6 +76,13 @@ Gleichgewicht ohne Rückführung ist Illusion.</p>
 <p>Systemischer Realismus erkennt, dass Systeme nur bestehen, wenn sie sich im Fluss halten.<br />
 Nicht durch starre Ordnung, sondern durch lebendige Balance.<br />
 Nicht durch Kontrolle, sondern durch Beziehung.<br />
-Nicht durch Perfektion, sondern durch die Fähigkeit, sich immer wieder neu auszurichten.</p>
+Nicht durch Perfektion, sondern durch die Fähigkeit, sich immer wieder neu auszurichten.
+</p>
+<!-- Fortschritt speichern -->
+  <script>
+    const chapterIndex = 8;  // 8 = Kapitelnummer
+    localStorage.setItem('kreisProgress', chapterIndex);
+    localStorage.setItem('lastChapter', window.location.pathname);
+  </script>
 </body>
 </html>

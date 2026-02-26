@@ -8,6 +8,10 @@
 </head>
 
 <body>
+      <!-- Raumschiff-Button (Rückkehr zur Oberfläche / index.html) -->
+      <div class="ship-return">
+      <a href="index.html" class="ship-button">Raumschiff</a>
+      </div>
   <!-- HEADBAR -->
   <nav class="headbar">
     <ul>
@@ -141,6 +145,13 @@ Sie lässt sich nur stabilisieren.</p>
 </ul>
 
 <p>Wir stehen auf dem Kopf.<br />
-Dieses Werk zeigt, wie wir wieder auf die Füße kommen.</p>
+Dieses Werk zeigt, wie wir wieder auf die Füße kommen.
+</p>
+<!-- Fortschritt speichern -->
+  <script>
+    const chapterIndex = 64;  // 64 = Kapitelnummer
+    localStorage.setItem('kreisProgress', chapterIndex);
+    localStorage.setItem('lastChapter', window.location.pathname);
+  </script>
 </body>
 </html>

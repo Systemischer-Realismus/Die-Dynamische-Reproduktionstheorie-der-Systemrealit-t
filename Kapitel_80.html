@@ -8,6 +8,10 @@
 </head>
 
 <body>
+      <!-- Raumschiff-Button (Rückkehr zur Oberfläche / index.html) -->
+      <div class="ship-return">
+      <a href="index.html" class="ship-button">Raumschiff</a>
+      </div>
   <!-- HEADBAR -->
   <nav class="headbar">
     <ul>
@@ -321,5 +325,11 @@ Heilung ist kein moralischer Akt.</p>
   <li>Rhythmus finden</li>
   <li>Mehrwert zurückführen</li>
 </ul>
+<!-- Fortschritt speichern -->
+  <script>
+    const chapterIndex = 80;  // 80 = Kapitelnummer
+    localStorage.setItem('kreisProgress', chapterIndex);
+    localStorage.setItem('lastChapter', window.location.pathname);
+  </script>
 </body>
 </html>

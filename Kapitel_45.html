@@ -8,6 +8,10 @@
 </head>
 
 <body>
+      <!-- Raumschiff-Button (Rückkehr zur Oberfläche / index.html) -->
+      <div class="ship-return">
+      <a href="index.html" class="ship-button">Raumschiff</a>
+      </div>
   <!-- HEADBAR -->
   <nav class="headbar">
     <ul>
@@ -109,6 +113,13 @@ and Fragilität zur Realität.</p>
 </ul>
 
 <p>Ein System lebt, solange seine Stabilität nicht zur Fessel wird —<br />
-und seine Resilienzgrenzen nicht überschritten werden, ohne dass es sich erneuert.</p>
+und seine Resilienzgrenzen nicht überschritten werden, ohne dass es sich erneuert.
+</p>
+<!-- Fortschritt speichern -->
+  <script>
+    const chapterIndex = 45;  // 45 = Kapitelnummer
+    localStorage.setItem('kreisProgress', chapterIndex);
+    localStorage.setItem('lastChapter', window.location.pathname);
+  </script>
 </body>
 </html>

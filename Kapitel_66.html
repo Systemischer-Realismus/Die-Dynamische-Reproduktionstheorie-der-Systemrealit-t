@@ -8,6 +8,10 @@
 </head>
 
 <body>
+      <!-- Raumschiff-Button (Rückkehr zur Oberfläche / index.html) -->
+      <div class="ship-return">
+      <a href="index.html" class="ship-button">Raumschiff</a>
+      </div>
   <!-- HEADBAR -->
   <nav class="headbar">
     <ul>
@@ -167,6 +171,13 @@ Kopplung ist der Anfang jeder Stabilität.</p>
 Das ist die Logik der Stabilität.<br />
 Das ist der Kern des Systemischen Realismus.</p>
 
-<p>Wir stehen heute auf dem Kopf, weil wir diese Ordnung verlassen haben.</p>
+<p>Wir stehen heute auf dem Kopf, weil wir diese Ordnung verlassen haben.
+</p>
+  !-- Fortschritt speichern -->
+  <script>
+    const chapterIndex = 66;  // 66 = Kapitelnummer
+    localStorage.setItem('kreisProgress', chapterIndex);
+    localStorage.setItem('lastChapter', window.location.pathname);
+  </script>
 </body>
 </html>

@@ -8,6 +8,10 @@
 </head>
 
 <body>
+      <!-- Raumschiff-Button (Rückkehr zur Oberfläche / index.html) -->
+      <div class="ship-return">
+      <a href="index.html" class="ship-button">Raumschiff</a>
+      </div>
   <!-- HEADBAR -->
   <nav class="headbar">
     <ul>
@@ -101,6 +105,13 @@ Ihre Ganzheit zerfällt, weil ihre Integration brüchig wird.</p>
 </ul>
 
 <p>Ein System lebt, solange seine Ganzheit nicht erzwungen wird —<br />
-sondern aus seinen Beziehungen entsteht.</p>
+sondern aus seinen Beziehungen entsteht.
+</p>
+<!-- Fortschritt speichern -->
+  <script>
+    const chapterIndex = 37;  // 37 = Kapitelnummer
+    localStorage.setItem('kreisProgress', chapterIndex);
+    localStorage.setItem('lastChapter', window.location.pathname);
+  </script>
 </body>
 </html>

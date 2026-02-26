@@ -8,6 +8,10 @@
 </head>
 
 <body>
+      <!-- Raumschiff-Button (Rückkehr zur Oberfläche / index.html) -->
+      <div class="ship-return">
+      <a href="index.html" class="ship-button">Raumschiff</a>
+      </div>
   <!-- HEADBAR -->
   <nav class="headbar">
     <ul>
@@ -76,6 +80,13 @@ Konsequenz schafft Zusammenhang.</p>
 Ein System lebt nicht jenseits seiner Geschichte, sondern in ihr.<br />
 Nicht frei von seinen Pfaden, sondern fähig, sie zu erweitern.<br />
 Nicht unabhängig von seinen Konsequenzen, sondern verantwortlich für sie.<br />
-Ein System lebt, solange es seine Vergangenheit nicht wiederholt – sondern verwandelt.</p>
+Ein System lebt, solange es seine Vergangenheit nicht wiederholt – sondern verwandelt.
+</p>
+<!-- Fortschritt speichern -->
+  <script>
+    const chapterIndex = 28;  // 28 = Kapitelnummer
+    localStorage.setItem('kreisProgress', chapterIndex);
+    localStorage.setItem('lastChapter', window.location.pathname);
+  </script>
 </body>
 </html>

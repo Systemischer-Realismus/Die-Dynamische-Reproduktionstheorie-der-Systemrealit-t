@@ -8,6 +8,10 @@
 </head>
 
 <body>
+      <!-- Raumschiff-Button (Rückkehr zur Oberfläche / index.html) -->
+      <div class="ship-return">
+      <a href="index.html" class="ship-button">Raumschiff</a>
+      </div>
   <!-- HEADBAR -->
   <nav class="headbar">
     <ul>
@@ -75,6 +79,13 @@ Systemische Intelligenz macht es tragfähig.</p>
 Ein System lebt nicht durch Planung, sondern durch die Muster, die aus seinen Beziehungen entstehen.<br />
 Nicht durch Kontrolle, sondern durch Selbstorganisation.<br />
 Nicht durch die Intelligenz einzelner Elemente, sondern durch die Intelligenz des Ganzen.<br />
-Ein System lebt, solange es Neues hervorbringen kann – und dieses Neue seine Stabilität vertieft.</p>
+Ein System lebt, solange es Neues hervorbringen kann – und dieses Neue seine Stabilität vertieft.
+</p>
+<!-- Fortschritt speichern -->
+  <script>
+    const chapterIndex = 34;  // 34 = Kapitelnummer
+    localStorage.setItem('kreisProgress', chapterIndex);
+    localStorage.setItem('lastChapter', window.location.pathname);
+  </script>
 </body>
 </html>

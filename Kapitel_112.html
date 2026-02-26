@@ -8,6 +8,10 @@
 </head>
 
 <body>
+      <!-- Raumschiff-Button (Rückkehr zur Oberfläche / index.html) -->
+      <div class="ship-return">
+      <a href="index.html" class="ship-button">Raumschiff</a>
+      </div>
   <!-- HEADBAR -->
   <nav class="headbar">
     <ul>
@@ -210,6 +214,13 @@ Nicht als Vision.</p>
 
 <p>Die neue Epoche verortet sich im Ganzen,<br />
 weil sie dieselben Prinzipien erfüllt,<br />
-die das Leben seit Milliarden Jahren tragen.</p>
+die das Leben seit Milliarden Jahren tragen.
+</p>
+<!-- Fortschritt speichern -->
+  <script>
+    const chapterIndex = 112;  // 112 = Kapitelnummer
+    localStorage.setItem('kreisProgress', chapterIndex);
+    localStorage.setItem('lastChapter', window.location.pathname);
+  </script>
 </body>
 </html>

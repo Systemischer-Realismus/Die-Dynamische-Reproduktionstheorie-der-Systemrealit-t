@@ -5,11 +5,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>KREIS – Systemischer Realismus</title>
   <link rel="stylesheet" href="assets/css/style.css">
-  <script src="assets/js/earth.js"></script>
 </head>
 
 <body>
-  <!-- HEADBAR -->
+      <!-- Raumschiff-Button (Rückkehr zur Oberfläche / index.html) -->
+      <div class="ship-return">
+      <a href="index.html" class="ship-button">Raumschiff</a>
+      </div>
+    <!-- HEADBAR -->
   <nav class="headbar">
     <ul>
       <li><a href="start.html">KREIS <img src="kosmos.ico" class="kosmos-icon"></a></li>
@@ -88,12 +91,13 @@ Die Klarheit, die wir wiederfinden müssen.</p>
 <h2 id="ein-neuer-standpunkt">Ein neuer Standpunkt</h2>
 
 <p>Wir stehen auf dem Kopf.<br />
-Dieses Werk stellt uns wieder auf die Füße.</p>
-
-<script>
-  const chapterIndex = 1;  // 1 = Kapitelnummer
-  localStorage.setItem('kreisProgress', chapterIndex);
-  localStorage.setItem('lastChapter', window.location.pathname);
-</script>
+Dieses Werk stellt uns wieder auf die Füße.
+</p>
+<!-- Fortschritt speichern -->
+  <script>
+    const chapterIndex = 1;  // 1 = Kapitelnummer
+    localStorage.setItem('kreisProgress', chapterIndex);
+    localStorage.setItem('lastChapter', window.location.pathname);
+  </script>
 </body>
 </html>

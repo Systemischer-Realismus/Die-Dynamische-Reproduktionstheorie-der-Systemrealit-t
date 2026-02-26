@@ -8,6 +8,10 @@
 </head>
 
 <body>
+      <!-- Raumschiff-Button (Rückkehr zur Oberfläche / index.html) -->
+      <div class="ship-return">
+      <a href="index.html" class="ship-button">Raumschiff</a>
+      </div>
   <!-- HEADBAR -->
   <nav class="headbar">
     <ul>
@@ -75,6 +79,13 @@ Grenzen sind die Bedingung, unter der diese Wirkung stabil bleibt.</p>
 Macht ist kein Triumph des Einzelnen, sondern eine Funktion des Zusammenhangs.<br />
 Einfluss ist kein Ausdruck von Dominanz, sondern von Beziehung.<br />
 Grenzen sind keine Einschränkung, sondern die Voraussetzung für jede Form von Stabilität.<br />
-Ein System lebt, solange seine Macht seine Grenzen respektiert – und sein Einfluss seine Rückführung stärkt.</p>
+Ein System lebt, solange seine Macht seine Grenzen respektiert – und sein Einfluss seine Rückführung stärkt.
+</p>
+<!-- Fortschritt speichern -->
+  <script>
+    const chapterIndex = 16;  // 16 = Kapitelnummer
+    localStorage.setItem('kreisProgress', chapterIndex);
+    localStorage.setItem('lastChapter', window.location.pathname);
+  </script>
 </body>
 </html>

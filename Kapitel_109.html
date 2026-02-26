@@ -8,6 +8,10 @@
 </head>
 
 <body>
+      <!-- Raumschiff-Button (Rückkehr zur Oberfläche / index.html) -->
+      <div class="ship-return">
+      <a href="index.html" class="ship-button">Raumschiff</a>
+      </div>
   <!-- HEADBAR -->
   <nav class="headbar">
     <ul>
@@ -199,6 +203,13 @@ Nicht auf Visionen.</p>
 </ul>
 
 <p>Die neue Epoche gründet auf der Ordnung,<br />
-die das Leben trägt.</p>
+die das Leben trägt.
+</p>
+<!-- Fortschritt speichern -->
+  <script>
+    const chapterIndex = 109;  // 109 = Kapitelnummer
+    localStorage.setItem('kreisProgress', chapterIndex);
+    localStorage.setItem('lastChapter', window.location.pathname);
+  </script>
 </body>
 </html>

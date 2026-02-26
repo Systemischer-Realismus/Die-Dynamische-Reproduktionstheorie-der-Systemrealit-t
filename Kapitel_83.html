@@ -8,6 +8,10 @@
 </head>
 
 <body>
+      <!-- Raumschiff-Button (Rückkehr zur Oberfläche / index.html) -->
+      <div class="ship-return">
+      <a href="index.html" class="ship-button">Raumschiff</a>
+      </div>
   <!-- HEADBAR -->
   <nav class="headbar">
     <ul>
@@ -210,6 +214,14 @@ Die Logik existiert.<br />
 Die Kreisläufe existieren.<br />
 Die Reproduktion existiert.</p>
 
-<p>Wir müssen sie nur wieder aktivieren.</p>
+<p>Wir müssen sie nur wieder aktivieren.
+  
+</p>
+<!-- Fortschritt speichern -->
+  <script>
+    const chapterIndex = 83;  // 83 = Kapitelnummer
+    localStorage.setItem('kreisProgress', chapterIndex);
+    localStorage.setItem('lastChapter', window.location.pathname);
+  </script>
 </body>
 </html>

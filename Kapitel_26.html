@@ -8,6 +8,10 @@
 </head>
 
 <body>
+      <!-- Raumschiff-Button (Rückkehr zur Oberfläche / index.html) -->
+      <div class="ship-return">
+      <a href="index.html" class="ship-button">Raumschiff</a>
+      </div>
   <!-- HEADBAR -->
   <nav class="headbar">
     <ul>
@@ -76,6 +80,13 @@ Balance schafft Zukunft.</p>
 Ein System lebt nicht durch Gleichheit, sondern durch tragfähige Verhältnisse.<br />
 Nicht durch starre Ausgewogenheit, sondern durch dynamische Balance.<br />
 Nicht durch die Abwesenheit von Differenz, sondern durch ihre Integration.<br />
-Ein System lebt, solange seine Unterschiede nicht trennen – und seine Gleichgewichte nicht ersticken.</p>
+Ein System lebt, solange seine Unterschiede nicht trennen – und seine Gleichgewichte nicht ersticken.
+</p>
+<!-- Fortschritt speichern -->
+  <script>
+    const chapterIndex = 26;  // 26 = Kapitelnummer
+    localStorage.setItem('kreisProgress', chapterIndex);
+    localStorage.setItem('lastChapter', window.location.pathname);
+  </script>
 </body>
 </html>

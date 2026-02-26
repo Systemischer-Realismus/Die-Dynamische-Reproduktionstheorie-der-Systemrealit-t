@@ -8,6 +8,10 @@
 </head>
 
 <body>
+      <!-- Raumschiff-Button (Rückkehr zur Oberfläche / index.html) -->
+      <div class="ship-return">
+      <a href="index.html" class="ship-button">Raumschiff</a>
+      </div>
   <!-- HEADBAR -->
   <nav class="headbar">
     <ul>
@@ -77,6 +81,13 @@ Strukturelle Intelligenz ermöglicht Zukunft.</p>
 Ein System ist nicht intelligent, weil es viel weiß, sondern weil es aus seinen Wirkungen lernt.<br />
 Nicht, weil es Fehler vermeidet, sondern weil es sie verwandeln kann.<br />
 Nicht, weil es perfekt ist, sondern weil es erneuerungsfähig bleibt.<br />
-Ein System lebt, solange es fähig ist, sich selbst zu korrigieren.</p>
+Ein System lebt, solange es fähig ist, sich selbst zu korrigieren.
+</p>
+<!-- Fortschritt speichern -->
+  <script>
+    const chapterIndex = 20;  // 20 = Kapitelnummer
+    localStorage.setItem('kreisProgress', chapterIndex);
+    localStorage.setItem('lastChapter', window.location.pathname);
+  </script>
 </body>
 </html>

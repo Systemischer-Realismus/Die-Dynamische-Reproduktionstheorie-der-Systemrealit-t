@@ -8,6 +8,10 @@
 </head>
 
 <body>
+      <!-- Raumschiff-Button (Rückkehr zur Oberfläche / index.html) -->
+      <div class="ship-return">
+      <a href="index.html" class="ship-button">Raumschiff</a>
+      </div>
   <!-- HEADBAR -->
   <nav class="headbar">
     <ul>
@@ -212,6 +216,13 @@ Sie braucht keine Beschleunigung.</p>
 
 <p>Die neue Epoche stabilisiert sich selbst,<br />
 weil sie dieselben Prinzipien erfüllt,<br />
-die jedes stabile System erfüllen muss.</p>
+die jedes stabile System erfüllen muss.
+</p>
+<!-- Fortschritt speichern -->
+  <script>
+    const chapterIndex = 96;  // 96 = Kapitelnummer
+    localStorage.setItem('kreisProgress', chapterIndex);
+    localStorage.setItem('lastChapter', window.location.pathname);
+  </script>
 </body>
 </html>

@@ -8,6 +8,10 @@
 </head>
 
 <body>
+      <!-- Raumschiff-Button (Rückkehr zur Oberfläche / index.html) -->
+      <div class="ship-return">
+      <a href="index.html" class="ship-button">Raumschiff</a>
+      </div>
   <!-- HEADBAR -->
   <nav class="headbar">
     <ul>
@@ -150,6 +154,13 @@ Wir haben die Rückführung vernachlässigt.<br />
 Wir haben die Energiebindung geschwächt.<br />
 Wir haben die Reproduktion überlastet.</p>
 
-<p>Und deshalb stehen wir auf dem Kopf.</p>
+<p>Und deshalb stehen wir auf dem Kopf.
+</p>
+<!-- Fortschritt speichern -->
+  <script>
+    const chapterIndex = 65;  // 65 = Kapitelnummer
+    localStorage.setItem('kreisProgress', chapterIndex);
+    localStorage.setItem('lastChapter', window.location.pathname);
+  </script>
 </body>
 </html>

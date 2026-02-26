@@ -8,6 +8,10 @@
 </head>
 
 <body>
+      <!-- Raumschiff-Button (Rückkehr zur Oberfläche / index.html) -->
+      <div class="ship-return">
+      <a href="index.html" class="ship-button">Raumschiff</a>
+      </div>
   <!-- HEADBAR -->
   <nav class="headbar">
     <ul>
@@ -76,6 +80,13 @@ Klarheit entscheidet, ob das System diese Möglichkeiten nutzen kann.</p>
 Ein System lebt nicht, weil es einfach ist, sondern weil es Komplexität tragen kann.<br />
 Nicht, weil es Überlastung vermeidet, sondern weil es sie rechtzeitig erkennt.<br />
 Nicht, weil es alles versteht, sondern weil es das Wesentliche erkennt.<br />
-Ein System lebt, solange seine Klarheit größer bleibt als seine Überlastung – und seine Komplexität tragfähig organisiert ist.</p>
+Ein System lebt, solange seine Klarheit größer bleibt als seine Überlastung – und seine Komplexität tragfähig organisiert ist.
+</p>
+<!-- Fortschritt speichern -->
+  <script>
+    const chapterIndex = 33;  // 33 = Kapitelnummer
+    localStorage.setItem('kreisProgress', chapterIndex);
+    localStorage.setItem('lastChapter', window.location.pathname);
+  </script>
 </body>
 </html>

@@ -8,6 +8,10 @@
 </head>
 
 <body>
+      <!-- Raumschiff-Button (Rückkehr zur Oberfläche / index.html) -->
+      <div class="ship-return">
+      <a href="index.html" class="ship-button">Raumschiff</a>
+      </div>
   <!-- HEADBAR -->
   <nav class="headbar">
     <ul>
@@ -133,6 +137,13 @@ zeigt, dass Entwicklung weder Zufall noch lineare Fortschrittsbewegung ist.</p>
 eine Sicht auf Systeme, die weder mechanisch noch deterministisch ist, sondern evolutiv, reflexiv und realistisch.</p>
 
 <p>Die folgenden Teile können auf dieser Basis zeigen, wie diese Logik in konkreten Zusammenhängen wirkt —<br />
-in sozialen, ökologischen, kulturellen oder individuellen Prozessen.</p>
+in sozialen, ökologischen, kulturellen oder individuellen Prozessen.
+</p>
+<!-- Fortschritt speichern -->
+  <script>
+    const chapterIndex = 63;  // 63 = Kapitelnummer
+    localStorage.setItem('kreisProgress', chapterIndex);
+    localStorage.setItem('lastChapter', window.location.pathname);
+  </script>
 </body>
 </html>

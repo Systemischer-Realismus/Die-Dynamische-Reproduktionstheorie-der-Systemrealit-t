@@ -8,6 +8,10 @@
 </head>
 
 <body>
+      <!-- Raumschiff-Button (Rückkehr zur Oberfläche / index.html) -->
+      <div class="ship-return">
+      <a href="index.html" class="ship-button">Raumschiff</a>
+      </div>
   <!-- HEADBAR -->
   <nav class="headbar">
     <ul>
@@ -258,5 +262,11 @@ die diese Ordnung ermöglicht.</p>
   <li>in der Wirtschaft</li>
   <li>im globalen Netzwerk</li>
 </ul>
+<!-- Fortschritt speichern -->
+  <script>
+    const chapterIndex = 93;  // 93 = Kapitelnummer
+    localStorage.setItem('kreisProgress', chapterIndex);
+    localStorage.setItem('lastChapter', window.location.pathname);
+  </script>
 </body>
 </html>
