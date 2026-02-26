@@ -5,10 +5,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>KREIS – Systemischer Realismus</title>
   <link rel="stylesheet" href="assets/css/style.css">
-  <script src="assets/js/earth.js"></script>
-/head>
+</head>
 
 <body>
+  <!-- Raumschiff-Button (Rückkehr zur Oberfläche / index.html) -->
+  <div class="ship-return">
+    <a href="index.html" class="ship-button">Raumschiff</a>
+  </div>
+
   <!-- HEADBAR -->
   <nav class="headbar">
     <ul>
@@ -267,10 +271,11 @@
     Dieses Kapitel ist der Ausgangspunkt. Es zeigt, warum der Kreis notwendig ist – und warum die Theorie kommt.
   </p>
 </section>
-<script>
-  const chapterIndex = 0;  // 0 = Kapitelnummer
-  localStorage.setItem('kreisProgress', chapterIndex);
-  localStorage.setItem('lastChapter', window.location.pathname);
-</script>
+<!-- Fortschritt speichern -->
+  <script>
+    const chapterIndex = 0;
+    localStorage.setItem('kreisProgress', chapterIndex);
+    localStorage.setItem('lastChapter', window.location.pathname);
+  </script>
 </body>
 </html>
