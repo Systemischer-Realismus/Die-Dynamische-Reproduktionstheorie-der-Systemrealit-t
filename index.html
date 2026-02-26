@@ -31,9 +31,26 @@
         die Lebensräume erhalten, auf erweiterte Reproduktion<br>
         und damit auf Evolution.
     </div>
-</section>
-  <!-- OPTIONAL: Fortschritt auslesen -->
+
+  </section>
+
+  <!-- Fortschritt auslesen und Erde drehen -->
   <script>
+    // Fortschritt aus den Kapiteln lesen
+    const progress = Number(localStorage.getItem("kreisProgress")) || 0;
+
+    // Gesamtzahl der Kapitel-Schritte (Kapitel_00 bis Kapitel_113)
+    const totalSteps = 113;
+
+    // Berechnung der Winkel
+    const rotation = progress * (360 / totalSteps);
+    const tilt = 180 - progress * (180 / totalSteps);
+
+    // Erde transformieren
+    const earth = document.querySelector(".earth");
+    earth.style.transform = `rotateZ(${rotation}deg) rotateX(${tilt}deg)`;
+
+    // Optional: Leser zurück in das letzte Kapitel führen
     const last = localStorage.getItem("lastChapter");
     if (last) {
       document.getElementById("kreisLink").href = last;
