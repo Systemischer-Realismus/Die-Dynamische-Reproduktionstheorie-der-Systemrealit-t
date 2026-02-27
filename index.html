@@ -43,12 +43,12 @@
     const totalSteps = 113;
 
     // Berechnung der Winkel
-    const rotation = progress * (360 / totalSteps);
+    //const rotation = progress * (360 / totalSteps);// deaktiviert, da Rortation nicht mehr benötigt wird  
     const tilt = 180 - progress * (180 / totalSteps);
 
     // Erde transformieren
     const earth = document.querySelector(".earth");
-    earth.style.transform = `rotateZ(${rotation}deg) rotateX(${tilt}deg)`;
+    earth.style.transform = `rotateX(${tilt}deg)`;//rotateZ(${rotation}deg) 
 
     // Optional: Leser zurück in das letzte Kapitel führen
     const last = localStorage.getItem("lastChapter");
